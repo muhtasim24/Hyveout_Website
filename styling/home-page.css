@@ -79,3 +79,15 @@ body {
     color: #000; /* Caption text color */
     text-align: center; /* Center-align the caption */
 }
+
+.middle-video {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%); /* Perfectly center */
+    width: 100%; /* Adjust to fit container */
+    height: auto;
+}
