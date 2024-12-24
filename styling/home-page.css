@@ -1,4 +1,4 @@
-
+/* Fonts and Global Styles */
 @font-face {
     font-family: 'PressStart2P';
     src: url('../pressStart2.ttf') format('truetype');
@@ -9,24 +9,73 @@ body {
 }
 
 .main-border {
-    position: relative; /* Enable positioning for child elements */
-    display: inline-block; /* Ensure the size of the .main-border container matches the image */
+    position: relative;
+    display: inline-block;
 }
 
 .landing-border {
-    display: block; /* Remove any unwanted spacing */
-    width: 100%; /* Optional: Ensure the border image scales properly */
+    display: block;
+    width: 100%;
     height: 100%;
 }
 
 .container {
-    position: absolute; /* Position relative to the parent */
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-45%, -55%); /* Offset the image to perfectly center it */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
 }
 
+/* Center Container Image */
 .site-container {
     display: block;
-    max-width: 100%; /* Optional: Make it responsive */
+    position: relative; /* Make positioning of children relative to this container */
+    max-width: 100%;
+    height: auto;
+}
+
+/* GIF Columns */
+.left-side-gifs, .right-side-gifs {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the gifs */
+    display: flex;
+    flex-direction: column; /* Stack gifs vertically */
+    justify-content: center; /* Center gifs within the column */
+    align-items: center; /* Ensure gifs are centered horizontally in their column */
+    gap: 40px; /* Space between gifs */
+}
+
+.left-side-gifs {
+    left: 0%; /* Align to the left side of .site-container */
+}
+
+.right-side-gifs {
+    right: 10%; /* Align to the right side of .site-container */
+}
+
+/* Styling for GIFs */
+.gifs {
+    width: 100px; /* Set consistent size for all gifs */
+    height: 100px; /* Ensures consistent height */
+    object-fit: contain; /* Keeps the aspect ratio of gifs */
+}
+
+.gifs:hover{
+    transform: scale(1.15);
+}
+
+/* Styling for GIF container and captions */
+.gif-container {
+    display: flex;
+    flex-direction: column; /* Stack the image and caption vertically */
+    align-items: center; /* Center align the image and caption */
+    gap: 12px; /* Space between the image and caption */
+}
+
+.gif-caption {
+    font-family: 'PressStart2P', sans-serif; /* Match the font */
+    font-size: 20px; /* Adjust text size */
+    color: #000; /* Caption text color */
+    text-align: center; /* Center-align the caption */
 }
