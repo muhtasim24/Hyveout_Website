@@ -26,7 +26,7 @@ body {
     transform: translate(-45%, -55%); /* Offset the image to perfectly center it */
 }
 
-.landing-page {
+.site-container {
     display: block;
     max-width: 100%; /* Optional: Make it responsive */
 }
