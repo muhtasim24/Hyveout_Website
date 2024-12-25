@@ -81,13 +81,46 @@ body {
 }
 
 .middle-video {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
     position: absolute;
-    top: 50%;
-    left: 46%;
-    transform: translate(-50%, -50%); /* Perfectly center */
-    width: 100%; /* Adjust to fit container */
+    display: flex;
+    flex-direction: column; /* Stack "LATEST" and the video vertically */
+    align-items: center; /* Center align the content */
+    top: 50%; /* Adjust placement relative to the container */
+    left: 50%;
+    transform: translate(-55%, -40%);
+    gap: 20px; /* Space between "LATEST" text and video */
+
+}
+
+.latest-text {
+    font-family: 'PressStart2P', sans-serif; /* Match the font */
+    font-size: 2rem;
+    transform: scaleX(1.5) scaleY(4); /* Center and stretch vertically */
+    text-align: center; /* Ensure text stays centered */
+    margin-top: 50px;
+}
+
+
+.youtube-video {
+    width: 22vw;
+    height: 20vh;
+    margin-bottom: 20px;
+}
+
+.arrow {
+    width: 5vw;
     height: auto;
+    animation: wiggle 0.5s infinite ease-in-out; /* Apply the animation */
+    margin-top: 30px; /* Adjust this value to lower the arrow */
+
+}
+
+/* Keyframes for wiggling up and down */
+@keyframes wiggle {
+    0%, 100% {
+        transform: translateY(0); /* Initial position */
+    }
+    50% {
+        transform: translateY(-10px); /* Move up by 10px */
+    }
 }
