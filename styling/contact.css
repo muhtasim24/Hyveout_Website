@@ -1,0 +1,78 @@
+/* Fonts and Global Styles */
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('../pressStart2.ttf') format('truetype');
+}
+
+body {
+    overflow: hidden;
+}
+
+.main-border {
+    position: relative;
+    display: inline-block;
+}
+
+.landing-border {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+}
+
+/* Center Container Image */
+.site-container {
+    display: block;
+    position: relative; /* Make positioning of children relative to this container */
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Back button in the top-left */
+
+.back-button {
+    position: absolute;
+    top: -15%; /* Align to the top of the site-container */
+    left: -35%; /* Align to the left of the site-container */
+    transform: translate(-50%, -70%); /* Reset any previous transforms */
+    width: 10vw; /* Adjust size as needed */
+    cursor: pointer;
+    z-index: 10; /* Ensure it is on top of other content */
+}
+
+/* Centered text */
+.text {
+    text-align: center;
+    font-family: 'PressStart2P', sans-serif; /* Optional: Match the desired font */
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 30px 0; /* Add spacing between lines */
+    color: #000; /* Adjust text color */
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row; /* Arrange icons in a row */
+    justify-content: center; /* Center the icons horizontally */
+    align-items: center; /* Align icons vertically in the middle */
+    gap: 2vw; /* Add spacing between icons */
+    margin-top: 20px; /* Space between text and icons */
+}
+
+.social-icons img {
+    width: 8vw; /* Set consistent width for all icons */
+    height: auto; /* Set consistent height for all icons */
+    object-fit: contain; /* Maintain aspect ratio */
+    cursor: pointer; /* Make icons clickable */
+    transition: transform 0.2s; /* Add hover effect */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
