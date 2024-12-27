@@ -1,0 +1,69 @@
+/* Fonts and Global Styles */
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('../pressStart2.ttf') format('truetype');
+}
+
+body {
+    overflow: hidden;
+}
+
+.main-border {
+    position: relative;
+    display: inline-block;
+}
+
+.landing-border {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -55%);
+}
+
+/* Center Container Image */
+.site-container {
+    display: block;
+    position: relative; /* Make positioning of children relative to this container */
+    max-width: 100%;
+    height: auto;
+}
+
+.back-button {
+    position: absolute;
+    left: -10%; /* Align to the left of the site-container */
+    transform: translate(-50%, -80%); /* Reset any previous transforms */
+    width: 10vw; /* Adjust size as needed */
+    cursor: pointer;
+    z-index: 10; /* Ensure it is on top of other content */
+}
+
+
+.gif-container {
+    display: flex;
+    flex-direction: row; /* Arrange the gifs and captions in a row */
+    gap: 10px; /* Space between each gif-caption pair */
+    transform: translate(-3%, 10%); /* Reset any previous transforms */
+
+}
+
+
+.gifs {
+    width: 450px; /* Larger size for the gifs */
+    height: 250px; /* Maintain consistent aspect ratio */
+    cursor: pointer;
+}
+
+.gif-caption {
+    font-family: 'PressStart2P', sans-serif; /* Match desired font */
+    font-size: 20px; /* Text size */
+    text-align: center; /* Center-align the text */
+    margin-top: 5%; /* Remove default margin */
+    transform: scaleY(1.5); /* Center and stretch vertically */
+
+}
