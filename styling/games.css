@@ -4,14 +4,6 @@
     src: url('../pressStart2.ttf') format('truetype');
 }
 
-body {
-    overflow: hidden;
-}
-
-.main-border {
-    position: relative;
-    display: inline-block;
-}
 
 .landing-border {
     display: block;

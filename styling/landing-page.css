@@ -4,15 +4,6 @@
     src: url('../pressStart2.ttf') format('truetype');
 }
 
-body {
-    overflow: hidden;
-}
-
-.main-border {
-    position: relative; /* Enable positioning for child elements */
-    display: inline-block; /* Ensure the size of the .main-border container matches the image */
-}
-
 .landing-border {
     display: block; /* Remove any unwanted spacing */
     width: 100%; /* Optional: Ensure the border image scales properly */
