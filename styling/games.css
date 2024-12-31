@@ -4,13 +4,6 @@
     src: url('../pressStart2.ttf') format('truetype');
 }
 
-
-.landing-border {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 .container {
     position: absolute;
     top: 50%;
@@ -18,13 +11,6 @@
     transform: translate(-45%, -55%);
 }
 
-/* Center Container Image */
-.site-container {
-    display: block;
-    position: relative; /* Make positioning of children relative to this container */
-    max-width: 100%;
-    height: auto;
-}
 
 
 .gif-container {
@@ -37,8 +23,8 @@
 
 
 .gifs {
-    width: 450px; /* Larger size for the gifs */
-    height: 250px; /* Maintain consistent aspect ratio */
+    width: 30vw; /* Larger size for the gifs */
+    height: auto;
     cursor: pointer;
 }
 
@@ -48,9 +34,29 @@
 
 .gif-caption {
     font-family: 'PressStart2P', sans-serif; /* Match desired font */
-    font-size: 20px; /* Text size */
+    font-size: 1.1rem; /* Text size */
     text-align: center; /* Center-align the text */
     margin-top: 5%; /* Remove default margin */
     transform: scaleY(1.5); /* Center and stretch vertically */
 
+}
+
+@media (max-width: 600px) {
+    .gif-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Change to column for phones */
+        gap: 15px; /* Adjust spacing between items in column layout */
+    }
+
+    .gifs {
+        width: 60vw; /* Adjust size for smaller screens */
+        height: auto;
+    }
+
+    .gif-caption {
+        font-size: 0.7rem; /* Adjust caption size for smaller screens */
+        margin-top: 5px; /* Smaller spacing for captions */
+    }
 }
