@@ -130,7 +130,7 @@
 
     .latest-text {
         font-size: 1rem; /* Adjust font size for phones */
-        margin: 0; /* Remove unnecessary margins */
+        margin-top: 0; /* Remove unnecessary margins */
     }
 
     .arrow {
@@ -139,8 +139,8 @@
     }
 
     .youtube-video {
-        width: 60vw; /* Make the video larger for small screens */
-        height: 13vh;
+        width: 100%; /* Make the video larger for small screens */
+        height: auto;
     }
 
     .gif-columns-container {
