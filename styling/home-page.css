@@ -47,8 +47,8 @@
 
 /* Styling for GIFs */
 .gifs {
-    width: 100px; /* Set consistent size for all gifs */
-    height: 100px; /* Ensures consistent height */
+    width: 6vw;
+    height: auto;
     object-fit: contain; /* Keeps the aspect ratio of gifs */
 }
 
