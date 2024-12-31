@@ -38,11 +38,11 @@
 }
 
 .left-side-gifs {
-    left: 0%; /* Align to the left side of .site-container */
+    left: -2%; /* Align to the left side of .site-container */
 }
 
 .right-side-gifs {
-    right: 10%; /* Align to the right side of .site-container */
+    right: 8%; /* Align to the right side of .site-container */
 }
 
 /* Styling for GIFs */
