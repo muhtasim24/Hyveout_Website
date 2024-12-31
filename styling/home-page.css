@@ -4,12 +4,6 @@
     src: url('../pressStart2.ttf') format('truetype');
 }
 
-.landing-border {
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
 .container {
     position: absolute;
     top: 50%;
@@ -115,4 +109,68 @@
     50% {
         transform: translateY(-10px); /* Move up by 10px */
     }
+}
+
+@media (max-width: 600px) {
+    .site-container {
+        display: none; /* Hide the desktop layout */
+    }
+
+    .middle-video {
+        position: relative; /* Remove absolute positioning for stacking */
+        top: 30%;
+        left: 50%;
+        transform: translateX(-55%) translateY(-65%); /* Center-align horizontally  */
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center-align content */
+        gap: 5px; /* Add spacing between elements */
+        padding: 10px; /* Add padding for a clean layout */
+    }
+
+    .latest-text {
+        font-size: 1rem; /* Adjust font size for phones */
+        margin: 0; /* Remove unnecessary margins */
+    }
+
+    .arrow {
+        width: 10vw; /* Adjust size for better visibility */
+        height: auto;
+    }
+
+    .youtube-video {
+        width: 45vw; /* Make the video larger for small screens */
+        height: 13vh;
+    }
+
+    .gif-columns-container {
+        display: flex;
+        flex-direction: row; /* Two columns side by side */
+        justify-content: space-between; /* Place columns on opposite sides */
+        align-items: flex-start; /* Align GIFs to the top of each column */
+        gap: 10px; /* Space between the columns */
+    }
+
+    .left-side-gifs,
+    .right-side-gifs {
+        display: flex;
+        flex-direction: column; /* Stack gifs vertically within each column */
+        justify-content: flex-start; /* Align gifs to the top of the column */
+        align-items: center; /* Center-align gifs in their column */
+        gap: 20px; /* Space between gifs */
+        width: 10vw; /* Allow space for both columns to fit within the screen */
+        position: absolute;
+        top: 90%;
+    }
+
+    .gifs {
+        width: 17vw; /* Take the full width of the column */
+        height: auto;
+    }
+
+    .gif-caption {
+        font-size: 1rem; /* Adjust caption size for better readability */
+        text-align: center; /* Ensure captions are centered */
+    }
+
 }
