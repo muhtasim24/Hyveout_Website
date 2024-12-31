@@ -25,19 +25,6 @@
     height: auto;
 }
 
-
-/* Back button in the top-left */
-
-.back-button {
-    position: absolute;
-    top: -15%; /* Align to the top of the site-container */
-    left: -25%; /* Align to the left of the site-container */
-    transform: translate(-50%, -70%); /* Reset any previous transforms */
-    width: 10vw; /* Adjust size as needed */
-    cursor: pointer;
-    z-index: 10; /* Ensure it is on top of other content */
-}
-
 /* Centered text */
 .text {
     text-align: center;

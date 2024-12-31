@@ -10,3 +10,13 @@
     left: 0;
     pointer-events: none;
 }
+
+.back-button {
+    width: 12vw;
+    position: absolute;
+    left: 8%;
+    top: 12%;
+    z-index: 11;
+    cursor: pointer;
+
+}

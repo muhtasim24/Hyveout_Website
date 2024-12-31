@@ -26,15 +26,6 @@
     height: auto;
 }
 
-.back-button {
-    position: absolute;
-    left: -10%; /* Align to the left of the site-container */
-    transform: translate(-50%, -80%); /* Reset any previous transforms */
-    width: 10vw; /* Adjust size as needed */
-    cursor: pointer;
-    z-index: 10; /* Ensure it is on top of other content */
-}
-
 
 .gif-container {
     display: flex;
