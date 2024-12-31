@@ -4,12 +4,6 @@
     src: url('../pressStart2.ttf') format('truetype');
 }
 
-.landing-border {
-    display: block; /* Remove any unwanted spacing */
-    width: 100%; /* Optional: Ensure the border image scales properly */
-    height: 100%;
-}
-
 .container {
     position: absolute; /* Position relative to the parent */
     top: 50%; /* Center vertically */
@@ -42,5 +36,16 @@
     transform: translate(-50%, -50%) translate(-8px, 8px); /* Shift to match the shadow direction */
     box-shadow: none; /* Remove shadow on hover */
 }
+
+@media (max-width: 600px) {
+    .enter {
+        font-size: 1rem;
+    }
+
+    .site-container{
+        width: 200vw;
+    }
+}
+
 
 
