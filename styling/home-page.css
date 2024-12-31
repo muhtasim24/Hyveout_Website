@@ -124,7 +124,7 @@
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
-        gap: 5px; /* Add spacing between elements */
+        gap: 1px; /* Add spacing between elements */
         padding: 10px; /* Add padding for a clean layout */
     }
 
@@ -139,7 +139,7 @@
     }
 
     .youtube-video {
-        width: 45vw; /* Make the video larger for small screens */
+        width: 60vw; /* Make the video larger for small screens */
         height: 13vh;
     }
 
@@ -164,7 +164,7 @@
     }
 
     .gifs {
-        width: 17vw; /* Take the full width of the column */
+        width: 15vw; /* Take the full width of the column */
         height: auto;
     }
 
