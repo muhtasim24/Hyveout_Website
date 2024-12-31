@@ -135,9 +135,8 @@
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        top: -6%;
+        top: -4%;
     }
-
     .arrow {
         width: 8vw; /* Adjust size for better visibility */
         height: auto;
