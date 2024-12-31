@@ -20,3 +20,13 @@
     cursor: pointer;
 
 }
+
+@media (max-width: 600px) {
+    /* Styles for phones only */
+    .back-button {
+        width: 25vw;
+        position: absolute;
+        left: 37%;
+        top: 13%;
+    }
+}
