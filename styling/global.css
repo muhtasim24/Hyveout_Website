@@ -1,7 +1,10 @@
-
-body{ 
+body {
     overflow: hidden;
+    margin: 0;
+    background: black;
 }
+
+/* Main border */
 .main-border {
     width: 100%;
     height: 100%;
@@ -12,23 +15,54 @@ body{
     top: 0;
     left: 0;
     pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Keeps static confined */
 }
 
+/* Static effect */
+.static {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Places static behind everything */
+    background: url(/assets/static3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.01;
+    animation: fuzzy-fade 0.1s infinite
+}
+
+/* Fuzzy animation */
+@keyframes fuzzy-fade {
+    0% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 0.85;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
+
+/* Back button styling */
 .back-button {
     width: 10vw;
     position: absolute;
     left: 8%;
     top: 12%;
-    z-index: 11;
+    z-index: 12; /* Ensures it's above static and main border */
     cursor: pointer;
-
 }
 
 @media (max-width: 600px) {
-    /* Styles for phones only */
+    /* Styles for phones */
     .back-button {
         width: 25vw;
-        position: absolute;
         left: 37%;
         top: 13%;
     }
