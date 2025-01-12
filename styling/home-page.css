@@ -81,7 +81,7 @@
 .latest-text {
     font-family: 'PressStart2P', sans-serif; /* Match the font */
     font-size: 2rem;
-    transform: scaleX(1.5) scaleY(3); /* Center and stretch vertically */
+    transform: scaleX(1.5) scaleY(2.8); /* Center and stretch vertically */
     text-align: center; /* Ensure text stays centered */
     margin-top: 55px;
 }
@@ -90,7 +90,7 @@
 .youtube-video {
     width: 22vw;
     height: 22vh;
-    margin-bottom: 21px;
+    margin-bottom: 30px;
 }
 
 .arrow {
