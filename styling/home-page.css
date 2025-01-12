@@ -178,3 +178,16 @@
     }
 
 }
+/* 
+@media (min-width: 701px) and (max-width: 1024px) {
+    .site-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+    }
+
+    .latest-text {
+        font-size: 1rem;
+        position: relative;
+    }
+} */
