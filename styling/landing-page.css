@@ -37,7 +37,7 @@
     box-shadow: none; /* Remove shadow on hover */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .enter {
         font-size: 1rem;
         transition: all 0.2s ease; /* Smooth animation for the hover effect */

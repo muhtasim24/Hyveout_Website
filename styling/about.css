@@ -23,7 +23,7 @@
     color: #000; /* Adjust text color */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     
     .text h1{
         font-size: 1rem;
