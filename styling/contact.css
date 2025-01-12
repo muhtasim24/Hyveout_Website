@@ -45,9 +45,11 @@
 @media (max-width: 700px) {
     .text{
         font-size: 0.80rem;
+        margin-right: 17px;
     }
     .social-icons img{
         width: 13vw;
         height: auto;
+        margin-right: 17px;
     }
 }
