@@ -168,12 +168,12 @@
     }
 
     .gifs {
-        width: 18.5vw; /* Take the full width of the column */
+        width: 15vw; /* Take the full width of the column */
         height: auto;
     }
 
     .gif-caption {
-        font-size: 0.80rem; /* Adjust caption size for better readability */
+        font-size: 0.9rem; /* Adjust caption size for better readability */
         text-align: center; /* Ensure captions are centered */
     }
 
