@@ -11,12 +11,9 @@
     transform: translate(-48%, -55%);
 }
 
-/* Centered text */
-.text {
-    text-align: center;
-}
 
 .text h1 {
+    text-align: center;
     font-family: 'PressStart2P', sans-serif; /* Optional: Match the desired font */
     font-size: 2rem; /* Adjust size as needed */
     margin: 30px 0; /* Add spacing between lines */
@@ -24,7 +21,9 @@
 }
 
 @media (max-width: 700px) {
-    
+    .container{
+        transform: translate(-45%, -55%);
+    }
     .text h1{
         font-size: 1rem;
         margin-right: 25px;
