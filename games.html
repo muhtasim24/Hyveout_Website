@@ -12,10 +12,10 @@
 </head>
 <body>
     <div class="main-border"></div>
-    <div class="static"></div>
     <div class="loading-screen">
-        <img class="loading-arrow" src="./assets/arrow.png" alt="arrow">
+        <img class="loading-arrow" src="./assets/hyveoutArrow.png" alt="arrow">
     </div>
+    <div class="static"></div>
     <img class='back-button' src="./gifs/backBtn.gif" alt="back button" onclick="location.href='home-page.html'">
         <div class="container">
             <div class="games">
@@ -35,12 +35,7 @@
                 </div>
             </div>
         </div>
-        <script>
-            $(window).on('load', function() {
-                $('.loading-screen').fadeOut(1000);
-                $('.container').fadeIn(1000);
-            })
-        </script>
+        <script src="script.js"></script>
 </body>
 </html>
 

@@ -37,10 +37,10 @@ body {
 
 /* Arrow Image */
 .loading-arrow {
-    width: 10%; /* Adjust size as needed */
+    width: 20%; /* Adjust size as needed */
     height: auto;
-    transform: rotate(270deg) scaleY(1.8); /* Rotate and make it longer */
-    animation: pulse 1.5s infinite;
+    /* transform: scaleY(1.8); */
+    /* animation: pulse 1.5s infinite; */
     z-index: 98;
 }
 
