@@ -3,7 +3,7 @@ $(window).on('load', function () {
     $('.container').hide()
 
     // Fade out the loading screen
-    $('.loading-screen').fadeOut(1200, function () {
+    $('.loading-screen').fadeOut(500, function () {
         // Once the loading screen fades out, display the container
         $('.container').fadeIn(500);
     });
