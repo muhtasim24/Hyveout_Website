@@ -19,7 +19,44 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Keeps static confined */
+    z-index: 99;
 }
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 97;
+    display: flex;
+    align-items: center; /* Vertically center the arrow */
+    justify-content: center; /* Horizontally center the arrow */
+}
+
+/* Arrow Image */
+.loading-arrow {
+    width: 10%; /* Adjust size as needed */
+    height: auto;
+    transform: rotate(270deg) scaleY(1.8); /* Rotate and make it longer */
+    animation: pulse 1.5s infinite;
+    z-index: 98;
+}
+
+@keyframes pulse {
+    0% {
+        transform: rotate(270deg) scaleY(1.8) scale(1); /* Longer arrow */
+    }
+    50% {
+        transform: rotate(270deg) scaleY(1.8) scale(1.1); /* Pulse effect */
+    }
+    100% {
+        transform: rotate(270deg) scaleY(1.8) scale(1); /* Return to normal */
+    }
+}
+
+
 
 /* Static effect */
 .static {

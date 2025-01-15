@@ -8,9 +8,13 @@
     <link rel="icon" href="../assets/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./styling/global.css">
     <link rel="stylesheet" href="./styling/home-page.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
 </head>
 <body>
     <div class="main-border"></div>
+    <div class="loading-screen">
+        <img class="loading-arrow" src="./assets/arrow.png" alt="arrow">
+    </div>
     <div class="static"></div>
         <div class="container">
             <img class="site-container" src="../assets/home-page.png" alt="box page">
@@ -37,8 +41,14 @@
                     <figcaption class="gif-caption">ABOUT</figcaption>
                     <img class="gifs" src="../gifs/shop.gif" alt="shop gif" onclick="location.href='shop.html'">
                     <figcaption class="gif-caption">SHOP</figcaption>
-                </figure>
+                 </figure>
             </div>
         </div>
+        <script>
+            $(window).on('load', function() {
+                $('.loading-screen').fadeOut(1000);
+                $('.container').fadeIn(1000);
+            })
+        </script>
 </body>
 </html>
