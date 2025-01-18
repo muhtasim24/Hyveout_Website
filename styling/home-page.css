@@ -116,7 +116,7 @@
         position: static; /* Reset positioning */
         transform: none; /* Remove transform */
         margin: 0;
-        overflow: auto; /* Allow scrolling if needed */
+        overflow: none; /* Allow scrolling if needed */
         background-size: auto; /* Default background scaling */
 
     }
