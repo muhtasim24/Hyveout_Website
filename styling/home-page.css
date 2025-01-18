@@ -17,41 +17,60 @@
     transform: translate(-50%, -50%); /* Offset the container by half its width and height */
     background-size: contain; /* Ensure the background image fits */
     margin: 0;
-}
-
-.gifs{
+    overflow: hidden;
     max-width: 100%;
     max-height: 100%;
+}
+
+/* img {
+    max-width: 100%;
+    max-height: 100%;
+} */
+.gifs{
     width: 7vw;
     object-fit: contain;
-    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .gifs:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
+    cursor: pointer;
 }
 
 .left-side-gifs, .right-side-gifs{
     display: flex;
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
 }
 
 .left-side-gifs{
-    
+    left: -2%;
+}
+
+.right-side-gifs{
+    right: 7%;
+}
+
+.gif-caption {
+    font-family: 'PressStart2P', sans-serif; /* Match the font */
+    color: #000; /* Caption text color */
+    text-align: center; /* Center-align the caption */
+    overflow: hidden;
+}
+
+.gif-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
 }
 
 .arrow{
-    max-width: 100%;
-    max-height: 100%;
-    width: 5vw;
+    width: 4vw;
+    height: auto;
     object-fit: contain;
-}
-
-.youtube-video {
-    max-width: 100%;
-    max-height: 100%;
-    width: 5vw;
-    object-fit: contain;
+    animation: wiggle 0.5s infinite ease-in-out; /* Apply the animation */
 }
 
 /* Keyframes for wiggling up and down */
@@ -64,83 +83,90 @@
     }
 }
 
+.middle-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -3%;
+    gap: 1rem;
+}
+
+.youtube-video {
+    width: 22vw;
+    height: 22vh;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.latest-text {
+    font-family: 'PressStart2P', sans-serif; /* Match the font */
+    font-size: 3.5rem;
+}
+
 @media (max-width: 700px) {
-    .site-container {
-        display: none; /* Hide the desktop layout */
-    }
-
-    .middle-video {
-        position: relative; /* Remove absolute positioning for stacking */
-        top: 30%;
-        left: 50%;
-        transform: translateX(-55%) translateY(-54%); /* Center-align horizontally  */
+    .container {
         display: flex;
-        flex-direction: column; /* Stack content vertically */
-        align-items: center; /* Center-align content */
-        gap: 1px; /* Add spacing between elements */
-        padding: 20px; /* Add padding for a clean layout */
+        align-items: center;
+        justify-content: center;
+        background: none; /* Remove background image */
+        width: 100vw; /* Full viewport width */
+        height: 100vh; /* Full viewport height */
+        position: static; /* Reset positioning */
+        transform: none; /* Remove transform */
+        margin: 0;
+        overflow: auto; /* Allow scrolling if needed */
+        background-size: auto; /* Default background scaling */
+
     }
 
-    .latest-text {
-        font-size: 1rem; /* Adjust font size for phones */
-        margin-top: 30px; /* Remove unnecessary margins */
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        position: absolute;
-        top: -4%;
+    .middle-video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        gap: 0.4rem;
+        top: -25%;
     }
-    .arrow {
-        width: 7vw; /* Adjust size for better visibility */
-        height: auto;
+
+    .latest-text{
+        font-size: 2em;
+    }
+
+    .arrow{
+        width: 9vw;
     }
 
     .youtube-video {
         width: 50vw; /* Make the video larger for small screens */
-        height: 15vh;
+        height: 13vh;
     }
-
-    .gif-columns-container {
-        display: flex;
-        flex-direction: row; /* Two columns side by side */
-        justify-content: space-between; /* Place columns on opposite sides */
-        align-items: flex-start; /* Align GIFs to the top of each column */
-        gap: 5px; /* Space between the columns */
-    }
-
-    .left-side-gifs,
+    
+    .left-side-gifs, 
     .right-side-gifs {
         display: flex;
-        flex-direction: column; /* Stack gifs vertically within each column */
-        justify-content: flex-start; /* Align gifs to the top of the column */
-        align-items: center; /* Center-align gifs in their column */
-        gap: 20px; /* Space between gifs */
-        width: 15vw; /* Allow space for both columns to fit within the screen */
-        position: absolute;
-        top: 90%;
+        flex-direction: column; /* Stack GIFs vertically */
+        align-items: center; /* Center-align GIFs */
+        position: relative;
+        top: 10%;
     }
 
     .gifs {
-        width: 15vw; /* Take the full width of the column */
-        height: auto;
+        width: 20vw;
+    }
+
+    .left-side-gifs{
+        left: 15%;
+    }
+
+    .right-side-gifs{
+        right: 15%;
     }
 
     .gif-caption {
-        font-size: 0.9rem; /* Adjust caption size for better readability */
-        text-align: center; /* Ensure captions are centered */
+        font-family: 'PressStart2P', sans-serif; /* Match the font */
+        color: #000; /* Caption text color */
+        text-align: center; /* Center-align the caption */
     }
-
 }
-/* 
-@media (min-width: 701px) and (max-width: 1024px) {
-    .site-container {
-        width: 100vw;
-        height: auto;
-        display: flex;
-    }
-
-    .latest-text {
-        font-size: 1rem;
-        position: relative;
-    }
-} */
