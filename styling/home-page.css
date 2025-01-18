@@ -5,100 +5,53 @@
 }
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-45%, -55%);
-}
-
-/* Center Container Image */
-.site-container {
-    display: block;
-    position: relative; /* Make positioning of children relative to this container */
-    max-width: 100%;
-    height: auto;
-}
-
-/* GIF Columns */
-.left-side-gifs, .right-side-gifs {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); /* Vertically center the gifs */
     display: flex;
-    flex-direction: column; /* Stack gifs vertically */
-    justify-content: center; /* Center gifs within the column */
-    align-items: center; /* Ensure gifs are centered horizontally in their column */
-    gap: 40px; /* Space between gifs */
+    align-items: center;
+    justify-content: center;
+    background: url('/assets/home-page.png') no-repeat center center;
+    width: 49vw; /* Set desired width */
+    height: 70vh; /* Set desired height */
+    position: absolute;
+    top: 47%; /* Move the container down 50% of the viewport height */
+    left: 50%; /* Move the container right 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Offset the container by half its width and height */
+    background-size: contain; /* Ensure the background image fits */
+    margin: 0;
 }
 
-.left-side-gifs {
-    left: -2%; /* Align to the left side of .site-container */
-}
-
-.right-side-gifs {
-    right: 8%; /* Align to the right side of .site-container */
-}
-
-/* Styling for GIFs */
-.gifs {
-    width: 6vw;
-    height: auto;
-    object-fit: contain; /* Keeps the aspect ratio of gifs */
-}
-
-.gifs:hover{
-    transform: scale(1.15);
+.gifs{
+    max-width: 100%;
+    max-height: 100%;
+    width: 7vw;
+    object-fit: contain;
     cursor: pointer;
 }
 
-/* Styling for GIF container and captions */
-.gif-container {
+.gifs:hover {
+    transform: scale(1.2);
+}
+
+.left-side-gifs, .right-side-gifs{
     display: flex;
-    flex-direction: column; /* Stack the image and caption vertically */
-    align-items: center; /* Center align the image and caption */
-    gap: 12px; /* Space between the image and caption */
+    flex-direction: column;
 }
 
-.gif-caption {
-    font-family: 'PressStart2P', sans-serif; /* Match the font */
-    font-size: 20px; /* Adjust text size */
-    color: #000; /* Caption text color */
-    text-align: center; /* Center-align the caption */
+.left-side-gifs{
+    
 }
 
-.middle-video {
-    position: absolute;
-    display: flex;
-    flex-direction: column; /* Stack "LATEST" and the video vertically */
-    align-items: center; /* Center align the content */
-    top: 48%; /* Adjust placement relative to the container */
-    left: 50%;
-    transform: translate(-55%, -40%);
-    gap: 20px; /* Space between "LATEST" text and video */
-
+.arrow{
+    max-width: 100%;
+    max-height: 100%;
+    width: 5vw;
+    object-fit: contain;
 }
-
-.latest-text {
-    font-family: 'PressStart2P', sans-serif; /* Match the font */
-    font-size: 2rem;
-    transform: scaleX(1.5) scaleY(2.8); /* Center and stretch vertically */
-    text-align: center; /* Ensure text stays centered */
-    margin-top: 55px;
-}
-
 
 .youtube-video {
-    width: 22vw;
-    height: 22vh;
-    margin-bottom: 30px;
-}
-
-.arrow {
+    max-width: 100%;
+    max-height: 100%;
     width: 5vw;
-    height: auto;
-    animation: wiggle 0.5s infinite ease-in-out; /* Apply the animation */
-    margin-top: 20px; /* Adjust this value to lower the arrow */
-
+    object-fit: contain;
 }
 
 /* Keyframes for wiggling up and down */
