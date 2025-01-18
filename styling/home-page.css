@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    overflow: hidden;
 }
 
 .left-side-gifs{
@@ -57,12 +56,13 @@
     font-family: 'PressStart2P', sans-serif; /* Match the font */
     color: #000; /* Caption text color */
     text-align: center; /* Center-align the caption */
-    overflow: hidden;
 }
 
 .gif-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0.45rem;
 }
 
@@ -139,34 +139,28 @@
     }
 
     .youtube-video {
-        width: 50vw; /* Make the video larger for small screens */
-        height: 13vh;
+        width: 55vw; /* Make the video larger for small screens */
+        height: 15vh;
     }
-    
-    .left-side-gifs, 
+
+
+    .left-side-gifs,
     .right-side-gifs {
-        display: flex;
-        flex-direction: column; /* Stack GIFs vertically */
-        align-items: center; /* Center-align GIFs */
-        position: relative;
         top: 10%;
     }
 
-    .gifs {
-        width: 20vw;
-    }
-
-    .left-side-gifs{
-        left: 15%;
+    .left-side-gifs {
+        left: 25%;
     }
 
     .right-side-gifs{
-        right: 15%;
+        right: 25%;
+    }
+    .gifs {
+        width: 20vw; /* Take the full width of the column */
+        max-width: 100%;
+        max-height: 100%;
     }
 
-    .gif-caption {
-        font-family: 'PressStart2P', sans-serif; /* Match the font */
-        color: #000; /* Caption text color */
-        text-align: center; /* Center-align the caption */
-    }
+    
 }
