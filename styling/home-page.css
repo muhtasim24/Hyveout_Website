@@ -127,7 +127,7 @@
         align-items: center;
         position: relative;
         gap: 0.4rem;
-        top: -25%;
+        top: -30%;
     }
 
     .latest-text{
@@ -147,7 +147,7 @@
 
     .left-side-gifs,
     .right-side-gifs {
-        top: 10%;
+        top: 3%;
     }
 
     .left-side-gifs {
