@@ -135,12 +135,13 @@
     }
 
     .arrow{
-        width: 9vw;
+        width: 7vw;
+        height: auto;
     }
 
     .youtube-video {
-        width: 55vw; /* Make the video larger for small screens */
-        height: 15vh;
+        width: 50vw; /* Make the video larger for small screens */
+        height: 13vh;
     }
 
 
