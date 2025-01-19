@@ -1,3 +1,7 @@
+* {
+    -webkit-user-drag: none; /* For Safari and Chrome */
+}
+
 body {
     overflow: hidden;
     margin: 0;
@@ -88,12 +92,15 @@ body {
 /* Back button styling */
 .back-button {
     width: 10vw;
+    max-width: 100%;
+    max-height: 100%;
     position: absolute;
     left: 8%;
     top: 12%;
     z-index: 12; /* Ensures it's above static and main border */
     cursor: pointer;
 }
+
 
 @media (max-width: 700px) {
     /* Styles for phones */
