@@ -94,8 +94,8 @@
 }
 
 .youtube-video {
-    width: 22vw;
-    height: 22vh;
+    width: 20vw;
+    height: 20vh;
     object-fit: contain;
     overflow: hidden;
 }
@@ -103,6 +103,9 @@
 .latest-text {
     font-family: 'PressStart2P', sans-serif; /* Match the font */
     font-size: 3.5rem;
+    height: auto;
+    object-fit: contain;
+
 }
 
 @media (max-width: 700px) {
