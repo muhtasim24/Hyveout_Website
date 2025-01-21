@@ -46,7 +46,8 @@
     } 
 
     .site-container{
-        width: 200vw;
+        width: 50vw;
+        height: 30vh;
     }
 }
 
