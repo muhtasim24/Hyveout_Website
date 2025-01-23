@@ -103,6 +103,10 @@ body {
     z-index: 12; /* Ensures it's above static and main border */
 }
 
+.back-button:hover{ 
+    transform: scale(1.15);
+}
+
 
 @media (max-width: 700px) {
     /* Styles for phones */
