@@ -17,6 +17,8 @@
 }
 
 .enter {
+    background-color: #ef3026;
+    color: white;
     position: absolute;
     font-family: 'PressStart2P', sans-serif;
     top: 70%;
@@ -42,7 +44,7 @@
         font-size: 1.5rem;
         transition: all 0.2s ease; /* Smooth animation for the hover effect */
         box-shadow: -10px 10px 0px rgba(0, 0, 0, 1); 
-        color: black;
+        color: white;
     } 
 
     .site-container{
