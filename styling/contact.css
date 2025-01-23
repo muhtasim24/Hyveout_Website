@@ -34,7 +34,6 @@
     width: 8vw; /* Set consistent width for all icons */
     height: auto; /* Set consistent height for all icons */
     object-fit: contain; /* Maintain aspect ratio */
-    cursor: pointer; /* Make icons clickable */
     transition: transform 0.2s; /* Add hover effect */
 }
 

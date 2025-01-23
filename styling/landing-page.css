@@ -27,7 +27,6 @@
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    cursor: pointer;
     font-size: 6rem;
     z-index: 1;
     transition: all 0.2s ease; /* Smooth animation for the hover effect */

@@ -25,7 +25,7 @@
 .gifs {
     width: 30vw; /* Larger size for the gifs */
     height: auto;
-    cursor: pointer;
+    cursor: url('/assets/cursor.png'), auto;
 }
 
 .gifs:hover {

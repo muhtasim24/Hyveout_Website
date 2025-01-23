@@ -1,5 +1,6 @@
 * {
     -webkit-user-drag: none; /* For Safari and Chrome */
+    cursor: url('/assets/cursor.png'), auto;
 }
 
 body {
@@ -100,7 +101,6 @@ body {
     left: 8%;
     top: 12%;
     z-index: 12; /* Ensures it's above static and main border */
-    cursor: pointer;
 }
 
 
