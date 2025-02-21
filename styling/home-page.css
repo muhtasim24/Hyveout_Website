@@ -92,7 +92,7 @@ a, iframe, .gifs {
 
 .youtube-video {
     width: 22vw;
-    height: 22vh;
+    height: 35vh;
     margin-bottom: 30px;
 }
 
@@ -123,7 +123,7 @@ a, iframe, .gifs {
         position: relative; /* Remove absolute positioning for stacking */
         top: 30%;
         left: 50%;
-        transform: translateX(-55%) translateY(-49%); /* Center-align horizontally  */
+        transform: translateX(-55%) translateY(-60%); /* Center-align horizontally  */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
@@ -146,8 +146,8 @@ a, iframe, .gifs {
     }
 
     .youtube-video {
-        width: 50vw; /* Make the video larger for small screens */
-        height: 15vh;
+        width: 67vw; /* Make the video larger for small screens */
+        height: 18.5vh;
     }
 
     .gif-columns-container {
@@ -165,7 +165,7 @@ a, iframe, .gifs {
         justify-content: flex-start; /* Align gifs to the top of the column */
         align-items: center; /* Center-align gifs in their column */
         gap: 20px; /* Space between gifs */
-        width: 15vw; /* Allow space for both columns to fit within the screen */
+        width: 30vw; /* Allow space for both columns to fit within the screen */
         position: absolute;
         top: 90%;
     }
