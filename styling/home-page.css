@@ -125,7 +125,7 @@ a, iframe, .gifs {
         position: relative; /* Remove absolute positioning for stacking */
         top: 25%;
         left: 50%;
-        transform: translateX(-55%) translateY(-60%); /* Center-align horizontally  */
+        transform: translateX(-55%) translateY(-50%); /* Center-align horizontally  */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
