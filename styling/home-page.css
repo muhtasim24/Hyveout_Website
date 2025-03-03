@@ -123,14 +123,14 @@ a, iframe, .gifs {
 
     .middle-video {
         position: relative; /* Remove absolute positioning for stacking */
-        top: 30%;
+        top: 25%;
         left: 50%;
         transform: translateX(-55%) translateY(-60%); /* Center-align horizontally  */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
         gap: 1px; /* Add spacing between elements */
-        padding: 20px; /* Add padding for a clean layout */
+        padding: 10px; /* Add padding for a clean layout */
     }
 
     .latest-text {
