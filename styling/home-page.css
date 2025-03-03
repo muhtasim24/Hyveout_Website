@@ -134,14 +134,13 @@ a, iframe, .gifs {
     }
 
     .latest-text {
-        display: none;
-        font-size: 1rem; /* Adjust font size for phones */
+        font-size: 0.5rem; /* Adjust font size for phones */
         margin-top: 30px; /* Remove unnecessary margins */
         margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        top: -9%;
+        top: -20%;
     }
     .arrow {
         display: none;
