@@ -74,33 +74,35 @@ a, iframe, .gifs {
     display: flex;
     flex-direction: column; /* Stack "LATEST" and the video vertically */
     align-items: center; /* Center align the content */
-    top: 48%; /* Adjust placement relative to the container */
-    left: 50%;
+    top: 45%; /* Adjust placement relative to the container */
+    left: 49%;
     transform: translate(-55%, -40%);
-    gap: 20px; /* Space between "LATEST" text and video */
+    gap: 5px; /* Space between "LATEST" text and video */
 
 }
 
 .latest-text {
     font-family: 'PressStart2P', sans-serif; /* Match the font */
     font-size: 2rem;
-    transform: scaleX(1.5) scaleY(2.8); /* Center and stretch vertically */
+    transform: scaleX(1.5) scaleY(2.0); /* Center and stretch vertically */
     text-align: center; /* Ensure text stays centered */
-    margin-top: 55px;
+    margin-top: 60px;
+
 }
 
 
 .youtube-video {
-    width: 22vw;
-    height: 35vh;
-    margin-bottom: 30px;
+    width: 20vw;
+    height: 23vh;
+    margin-bottom: 60px;
 }
 
 .arrow {
-    width: 5vw;
+    width: 3.5vw;
     height: auto;
     animation: wiggle 0.5s infinite ease-in-out; /* Apply the animation */
     margin-top: 20px; /* Adjust this value to lower the arrow */
+    z-index: 2;
 
 }
 
@@ -132,6 +134,7 @@ a, iframe, .gifs {
     }
 
     .latest-text {
+        display: none;
         font-size: 1rem; /* Adjust font size for phones */
         margin-top: 30px; /* Remove unnecessary margins */
         margin-bottom: 0;
@@ -141,6 +144,7 @@ a, iframe, .gifs {
         top: -9%;
     }
     .arrow {
+        display: none;
         width: 7vw; /* Adjust size for better visibility */
         height: auto;
     }
