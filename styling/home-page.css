@@ -102,7 +102,6 @@ a, iframe, .gifs {
     height: auto;
     animation: wiggle 0.5s infinite ease-in-out; /* Apply the animation */
     margin-top: 20px; /* Adjust this value to lower the arrow */
-    z-index: 2;
 
 }
 
@@ -118,14 +117,17 @@ a, iframe, .gifs {
 
 @media (max-width: 700px) {
     .site-container {
-        display: none; /* Hide the desktop layout */
+        display: none;
+        position: none; /* Make positioning of children relative to this container */
+        max-width: 0;
+        height: 0;
     }
 
     .middle-video {
         position: relative; /* Remove absolute positioning for stacking */
         top: 25%;
         left: 50%;
-        transform: translateX(-55%) translateY(-50%); /* Center-align horizontally  */
+        transform: translateX(-55%) translateY(-55%); /* Center-align horizontally  */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
@@ -140,12 +142,13 @@ a, iframe, .gifs {
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        top: -20%;
+        top: -15%;
     }
     .arrow {
         display: none;
-        width: 7vw; /* Adjust size for better visibility */
-        height: auto;
+        width: 0%;
+        height: 0;
+
     }
 
     .youtube-video {
@@ -169,13 +172,15 @@ a, iframe, .gifs {
         align-items: center; /* Center-align gifs in their column */
         gap: 20px; /* Space between gifs */
         width: 30vw; /* Allow space for both columns to fit within the screen */
-        position: absolute;
-        top: 90%;
+        transform:translateY(-15%); /* Center-align horizontally  */
+    
+        
     }
 
     .gifs {
         width: 15vw; /* Take the full width of the column */
         height: auto;
+        z-index: 99;
     }
 
     .gif-caption {
