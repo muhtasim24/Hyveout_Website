@@ -158,9 +158,8 @@ a, iframe, .gifs {
 
     .gif-columns-container {
         display: flex;
-        flex-direction: row; /* Two columns side by side */
-        justify-content: space-between; /* Place columns on opposite sides */
-        align-items: flex-start; /* Align GIFs to the top of each column */
+        justify-content: space-evenly; /* Place columns on opposite sides */
+        align-items: stretch; /* Align GIFs to the top of each column */
         gap: 5px; /* Space between the columns */
         z-index: 200;
     }
@@ -178,6 +177,10 @@ a, iframe, .gifs {
         
     }
 
+    .left-side-gifs{
+        top: 48.4%;
+    }
+    
     .gifs {
         width: 15vw; /* Take the full width of the column */
         height: auto;
