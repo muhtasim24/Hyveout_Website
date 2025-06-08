@@ -75,7 +75,7 @@ a, iframe, .gifs {
     flex-direction: column; /* Stack "LATEST" and the video vertically */
     align-items: center; /* Center align the content */
     top: 45%; /* Adjust placement relative to the container */
-    left: 49%;
+    left: 52%;
     transform: translate(-55%, -40%);
     gap: 5px; /* Space between "LATEST" text and video */
 
@@ -105,6 +105,24 @@ a, iframe, .gifs {
 
 }
 
+#gif-game {
+    width: 40vw;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -1%;
+}
+
+#gif-game:hover {
+    transform: scale(1.05);
+}
+
+.game {
+    font-size: 15px;
+}
+
+
 /* Keyframes for wiggling up and down */
 @keyframes wiggle {
     0%, 100% {
@@ -127,7 +145,7 @@ a, iframe, .gifs {
         position: relative; /* Remove absolute positioning for stacking */
         top: 25%;
         left: 50%;
-        transform: translateX(-55%) translateY(-50%); /* Center-align horizontally  */
+        transform: translateX(-55%) translateY(-60%); /* Center-align horizontally  */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align content */
@@ -164,6 +182,9 @@ a, iframe, .gifs {
         z-index: 200;
     }
 
+    .right-side-gifs {
+        right: 14%;
+    }
     .left-side-gifs,
     .right-side-gifs {
         z-index: 200;
@@ -179,6 +200,7 @@ a, iframe, .gifs {
 
     .left-side-gifs{
         top: 48.27%;
+        left: 9%;
     }
     
     .gifs {
@@ -190,6 +212,19 @@ a, iframe, .gifs {
     .gif-caption {
         font-size: 0.9rem; /* Adjust caption size for better readability */
         text-align: center; /* Ensure captions are centered */
+    }
+
+    #gif-game {
+        width: 70vw;
+        height: 20vh;
+    }
+    
+    #gif-game:hover {
+        transform: scale(1.05);
+    }
+    
+    .game {
+        font-size: 15px;
     }
 
 }
