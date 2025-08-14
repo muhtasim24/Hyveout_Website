@@ -29,6 +29,7 @@
     justify-content: center; /* Center gifs within the column */
     align-items: center; /* Ensure gifs are centered horizontally in their column */
     gap: 40px; /* Space between gifs */
+    z-index: 10000;
 }
 
 .left-side-gifs {
@@ -106,7 +107,7 @@ a, iframe, .gifs {
 }
 
 #gif-game {
-    width: 40vw;
+    width: 30vw;
     height: 20vh;
     justify-content: center;
     align-items: center;
