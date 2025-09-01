@@ -1,32 +1,12 @@
-# Hyveout Website
+# React + Vite
 
-Welcome to the official repository for the **Hyveout Website**! This project is a creative agency site designed to showcase the music artists' work, portfolios, and creative content like videos, marketing materials, and more.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-- [About](#about)
-- [Features](#features)
-- [Technologies](#technologies)
-- [License](#license)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## About
+## Expanding the ESLint configuration
 
-**Hyveout** is a creative agency that specializes in creating innovative content for music artists. This website serves as the official hub for displaying various projects, including music videos, promotional content, and interactive features that engage the audience.
-
-This project was built to highlight the cutting-edge work of the agency and provide a platform for fans and clients to connect with the creative team.
-
-## Features
-
-- **Interactive Content**: Users can explore music videos, portfolios, and other creative projects.
-- **Responsive Design**: The website adapts to various screen sizes, ensuring a seamless experience across all devices.
-- **Smooth Animations**: The website features smooth fade-in effects and loading screens to keep users engaged while the page is loading.
-- **Navigation Links**: Quick access to sections like media, contact, games, mind, about, and shop.
-
-## Technologies
-
-This website is built using the following technologies:
-
-- **HTML**: Structuring the content and layout of the site.
-- **CSS**: Styling the pages, animations, and making the design responsive.
-- **JavaScript (jQuery)**: Adding interactivity, animations, and controlling page elements.
-- **External Libraries**: For video embedding and other functionality.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
