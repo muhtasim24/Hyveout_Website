@@ -1,13 +1,16 @@
 
 import { Link } from "react-router"
+import "../css/gifLink.css"
 
 function GifLink(props) {
-    const { title, src, alt, path } =  props
+    const { title, image, alt, path } =  props
     return (
-        <Link to={path}>
-            <img src={src} alt={alt} />
-            <h1>{title}</h1>
-        </Link>
+        <>
+            <Link to={path}>
+                <img className="gifs" src={image} alt={alt} />
+            </Link>
+            <h1 className="caption">{title}</h1>
+        </>
     )
 }
 
