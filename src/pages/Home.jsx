@@ -40,10 +40,11 @@ function Home() {
                 </div>
 
                 <div className="middle-video">
-                    <h1>LATEST</h1>
+                    <h1 className="latest-text">LATEST</h1>
                     <a href="https://hyveout-ghosts.vercel.app/" target="_blank">
                         <img className="game-gif" src={videoGif} alt="ghost_game"/>
                     </a>
+                    <h1 className="mid-text">GHOST BY NINEXTEEN</h1>
                 </div>
 
                 <div className="right-side-gifs">

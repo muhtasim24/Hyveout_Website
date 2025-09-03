@@ -1,13 +1,24 @@
 .gifs {
-    width: 10vw;
+    width: 15vw;
     height: 100%;
 }
 
-.left-side-gifs {
+.left-side-gifs, .right-side-gifs {
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: -20%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+}
+
+.left-side-gifs {
+    left: -6%;
+
+}
+
+.right-side-gifs {
+    right: 5%;
 }
 
 .caption {

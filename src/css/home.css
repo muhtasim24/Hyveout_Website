@@ -3,6 +3,26 @@
 }
 
 .game-gif {
-    width: 60vw;
-    height: 100%;
+    width: 70vw;
+    height: 18vh;
+}
+
+.middle-video {
+    position: relative;
+    top: 25%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-55%) translateY(-90%); /* Center-align horizontally  */
+}
+
+.latest-text {
+    font-size: 1.0rem;
+}
+
+.mid-text {
+    font-size: 0.9rem;
+    width: 100%;
 }
