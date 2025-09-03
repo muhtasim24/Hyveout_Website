@@ -25,3 +25,18 @@
     font-size: 5vw;
     text-align: center;
 }
+
+
+/* Apply to tablets, laptops, desktops — NOT phones */
+@media (min-width: 768px) {
+
+.gifs {
+    width: 5vw;
+}
+
+.caption {
+    font-size: 1vw;
+}
+
+
+}

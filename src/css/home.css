@@ -26,3 +26,22 @@
     font-size: 0.9rem;
     width: 100%;
 }
+
+/* Apply to tablets, laptops, desktops — NOT phones */
+@media (min-width: 768px) {
+    .home-container {
+        display: block;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        position: relative;
+    }
+
+    .game-gif {
+        width: 25vw;
+        height: 20vh;
+    }
+
+}
