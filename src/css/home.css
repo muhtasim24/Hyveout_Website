@@ -7,6 +7,10 @@
     height: 18vh;
 }
 
+.game-gif:hover {
+    transform: scale(1.05);
+}
+
 .arrow {
     display: none;
 }
@@ -20,6 +24,7 @@
     align-items: center;
     justify-content: center;
     transform: translateX(-55%) translateY(-90%); /* Center-align horizontally  */
+    z-index: 2;
 }
 
 .latest-text {
