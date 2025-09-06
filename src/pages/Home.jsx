@@ -19,13 +19,10 @@ function Home() {
             <div className="container">
                 <img className="home-container" src= {homeBorder} alt="box page"/>
                 <div className="left-side-gifs">
-                    <GifLink 
-                        title="MEDIA"
-                        image = {mediaGif}
-                        new = "_blank"
-                        alt = "youtube"
-                        path = "https://www.youtube.com/@HYVEOUT/videos"
-                    />
+                    <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
+                        <img className="gifs" src={mediaGif} alt="media gif" />
+                    </a>
+                    <h1 className="caption">MEDIA</h1>
                     <GifLink 
                         title="CONTACT"
                         image = {contactGif}
