@@ -9,6 +9,7 @@ import shopGif from "../gifs/shop.gif";
 import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"
 import GifLink from "../components/gifLink";
+import arrowPng from "../assets/arrow.png";
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
 
                 <div className="middle-video">
                     <h1 className="latest-text">LATEST</h1>
+                    <img className="arrow" src={arrowPng} alt="arrow" />
                     <a href="https://hyveout-ghosts.vercel.app/" target="_blank">
                         <img className="game-gif" src={videoGif} alt="ghost_game"/>
                     </a>

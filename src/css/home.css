@@ -7,6 +7,10 @@
     height: 18vh;
 }
 
+.arrow {
+    display: none;
+}
+
 .middle-video {
     position: relative;
     top: 25%;
@@ -35,13 +39,44 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 70vh;
+        height: 67vh;
         position: relative;
+        transform: translateY(40%);
     }
 
     .game-gif {
-        width: 25vw;
+        width: 19vw;
         height: 20vh;
     }
+
+    .middle-video {
+        transform: translate(-55%, -55%);
+        gap: 5px;
+    }
+
+    .arrow {
+        display: flex;
+        width: 3.5vw;
+        height: auto;
+        animation: wiggle 0.5s infinite ease-in-out;
+        margin-top: 20px;
+    }
+
+        /* Keyframes for wiggling up and down */
+    @keyframes wiggle {
+        0%, 100% {
+            transform: translateY(0); /* Initial position */
+        }
+        50% {
+            transform: translateY(-10px); /* Move up by 10px */
+        }
+    }
+
+    .latest-text {
+        font-size: 2rem;
+        transform: scaleX(1.5) scaleY(2.0);
+    }
+
+
 
 }
