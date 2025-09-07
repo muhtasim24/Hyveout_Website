@@ -18,13 +18,13 @@ function Contact() {
 
                 <div class="social-icons">
                     <a href="https://www.instagram.com/hyveout/" target="_blank">
-                        <img src= {instaImg} alt="instagram image" />
+                        <img src= {instaImg} alt="instagram image" loading="lazy"/>
                     </a>
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img src={mediaGif} alt="youtube gif"/>
+                        <img src={mediaGif} alt="youtube gif" loading="lazy"/>
                     </a>
                     <a href="https://discord.gg/YxQgw4aCaK" target="_blank">
-                        <img src={discordImg} alt="discord image"/>
+                        <img src={discordImg} alt="discord image" loading="lazy"/>
                     </a>
                 </div>
             </div>

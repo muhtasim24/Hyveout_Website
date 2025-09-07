@@ -10,7 +10,7 @@ function Shop() {
             <StaticBackground/>
             <BackButton/>
             <div className="shop-container">
-                <img className="shopImg" src={shopGif} alt="brain gif"/>
+                <img className="shopImg" src={shopGif} alt="brain gif" loading="lazy"/>
                 <h1 className="shopText">COMING SOON</h1>
             </div>
         </div>

@@ -17,10 +17,10 @@ function Home() {
         <div className="main-border">
             <StaticBackground/>
             <div className="container">
-                <img className="home-container" src= {homeBorder} alt="box page"/>
+                <img className="home-container" src= {homeBorder} alt="box page" loading="lazy"/>
                 <div className="left-side-gifs">
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img className="gifs" src={mediaGif} alt="media gif" />
+                        <img className="gifs" src={mediaGif} alt="media gif" loading="lazy"/>
                     </a>
                     <h1 className="caption">MEDIA</h1>
                     <GifLink 
@@ -39,7 +39,7 @@ function Home() {
 
                 <div className="middle-video">
                     <h1 className="latest-text">LATEST</h1>
-                    <img className="arrow" src={arrowPng} alt="arrow" />
+                    <img className="arrow" src={arrowPng} alt="arrow" loading="lazy"/>
                     <a href="https://hyveout-ghosts.vercel.app/" target="_blank">
                         <img className="game-gif" src={videoGif} alt="ghost_game"/>
                     </a>

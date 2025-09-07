@@ -9,7 +9,7 @@ function Landing() {
         <div className="main-border">
             <StaticBackground/>
             <div className="container">
-                <img className="site-container" src= {landingImg} alt="box page" />
+                <img className="site-container" src= {landingImg} alt="box page" loading="lazy"/>
                 <Link to="/home">
                     <button className="enter">ENTER</button>
                 </Link>

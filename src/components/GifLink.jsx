@@ -7,7 +7,7 @@ function GifLink(props) {
     return (
         <>
             <Link to={path}>
-                <img className="gifs" src={image} alt={alt} />
+                <img className="gifs" src={image} alt={alt} loading="lazy"/>
             </Link>
             <h1 className="caption">{title}</h1>
         </>

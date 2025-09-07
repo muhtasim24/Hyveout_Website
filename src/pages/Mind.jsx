@@ -10,7 +10,7 @@ function Mind() {
             <StaticBackground/>
             <BackButton/>
             <div className="mind-container">
-                <img className="mindImg"src={brainGif} alt="brain gif"/>
+                <img className="mindImg"src={brainGif} alt="brain gif" loading="lazy"/>
                 <h1 className="mindText">COMING SOON</h1>
             </div>
         </div>
