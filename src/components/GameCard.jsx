@@ -7,9 +7,9 @@ function GameCard(props) {
     return (
         <div className="game">
             <a href={path} target="_blank">
-                <img src={image} alt={alt} />
+                <img className="games-gif" src={image} alt={alt} />
             </a>
-            <h1>{title}</h1>
+            <h1 className="games-caption">{title}</h1>
         </div>
     )
 }

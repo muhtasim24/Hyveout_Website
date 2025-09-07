@@ -1,0 +1,17 @@
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 50px; /* spacing between cards */
+    max-height: 37vh; /* limit container height */
+    overflow-y: auto; /* makes it scroll down */
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    .game-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        max-height: 39.5vh;
+    }
+}

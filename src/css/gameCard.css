@@ -1,0 +1,33 @@
+
+.game{
+    display: flex;
+    flex-direction: column;
+}
+
+.games-gif {
+    width: 30vw;
+    height: auto;
+}
+
+.games-gif:hover{
+    transform: scale(1.02);
+}
+
+.games-caption {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5%;
+    transform: scaleY(1.5);
+}
+
+@media (max-width: 768px) {
+    .games-gif {
+        width: 60vw;
+    }
+
+    .games-caption {
+        font-size: 0.7rem;
+        margin-top: 10px;
+        width: 60vw;
+    }
+}
