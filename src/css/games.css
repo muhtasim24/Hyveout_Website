@@ -7,7 +7,7 @@
     overflow-y: auto; /* makes it scroll down */
     padding: 1rem;
     position: relative;
-    top: 2%;
+    top: 1%;
 }
 
 @media (max-width: 768px) {
