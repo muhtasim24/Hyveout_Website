@@ -1,6 +1,6 @@
 :root {
     font-family: 'PressStart2P';
-    src: url('../pressStart2.ttf') format('truetype');
+    src: url('../assets/pressStart2.ttf') format('truetype');
 }
 
 * {
