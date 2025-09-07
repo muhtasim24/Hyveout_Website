@@ -26,13 +26,6 @@ function Games() {
                     path = "https://hyveout-fragments-game.vercel.app/"
                 />
 
-<GameCard 
-                    title="GHOST BY NINEXTEEN"
-                    image = {ghostGameGif}
-                    alt = "Ghost game gif"
-                    path = "https://hyveout-ghosts.vercel.app/"
-                />
-
                 
             </div>
         </div>

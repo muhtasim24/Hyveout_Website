@@ -41,19 +41,20 @@ body {
   background: url('../assets/static3.png');
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 90%;
-  animation: fuzzy-fade 0.001s infinite
+  opacity: 50%;
+  animation: flicker 0.1s infinite steps(10);
 }
 
-/* Fuzzy animation */
-@keyframes fuzzy-fade {
-  0% {
-      opacity: 1;
-  }
-  50% {
-      opacity: 0.8;
-  }
-  100% {
-      opacity: 1;
-  }
+@keyframes flicker {
+  0% { opacity: 0.2; }
+  10% { opacity: 0.6; }
+  20% { opacity: 0.4; }
+  30% { opacity: 0.7; }
+  40% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+  60% { opacity: 0.4; }
+  70% { opacity: 0.9; }
+  80% { opacity: 0.5; }
+  90% { opacity: 0.7; }
+  100% { opacity: 0.2; }
 }
