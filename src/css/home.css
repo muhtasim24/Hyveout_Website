@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translateX(-55%) translateY(-90%); /* Center-align horizontally  */
+    transform: translateX(-55%) translateY(-80%); /* Center-align horizontally  */
     z-index: 2;
 }
 

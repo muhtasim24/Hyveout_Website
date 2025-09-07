@@ -20,7 +20,7 @@ function Home() {
                 <img className="home-container" src= {homeBorder} alt="box page" loading="lazy"/>
                 <div className="left-side-gifs">
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img className="gifs" src={mediaGif} alt="media gif" loading="lazy"/>
+                        <img className="gifs" src={mediaGif} alt="media gif"/>
                     </a>
                     <h1 className="caption">MEDIA</h1>
                     <GifLink 
