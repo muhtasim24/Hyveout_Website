@@ -8,7 +8,7 @@ import aboutGif from "../gifs/book.gif";
 import shopGif from "../gifs/shop.gif";
 import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"
-import GifLink from "../components/gifLink";
+import GifLink from "../components/GifLink";
 import arrowPng from "../assets/arrow.png";
 
 
