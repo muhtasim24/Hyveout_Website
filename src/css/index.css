@@ -12,7 +12,7 @@ body {
   overflow: hidden;
   margin: 0;
   cursor: url('../assets/cursor.png'), auto;
-  font-size: 'PressStart2P', sans-serif;
+  font-family: 'PressStart2P', sans-serif;
 }
 
 /* Main border */
