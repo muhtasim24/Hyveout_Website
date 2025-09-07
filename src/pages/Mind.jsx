@@ -1,4 +1,4 @@
-import BackButton from "../components/backButton";
+import BackButton from "../components/BackButton";
 import StaticBackground from "../components/StaticBackground";
 import brainGif from "../gifs/brain.gif";
 import "../css/mind.css"

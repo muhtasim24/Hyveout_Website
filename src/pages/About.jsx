@@ -1,4 +1,4 @@
-import BackButton from "../components/backButton";
+import BackButton from "../components/BackButton";
 import StaticBackground from "../components/StaticBackground";
 import "../css/about.css"
 

@@ -1,4 +1,4 @@
-import BackButton from "../components/backButton";
+import BackButton from "../components/BackButton";
 import GameCard from "../components/GameCard";
 import StaticBackground from "../components/StaticBackground";
 import ghostGameGif from "../gifs/GHOST_GAME.gif";
