@@ -6,6 +6,8 @@
     max-height: 37vh; /* limit container height */
     overflow-y: auto; /* makes it scroll down */
     padding: 1rem;
+    position: relative;
+    top: 2%;
 }
 
 @media (max-width: 768px) {
