@@ -1,5 +1,5 @@
 .gifs {
-    width: 15vw;
+    width: 13vw;
     height: 100%;
 }
 
@@ -15,20 +15,22 @@
     align-items: center;
     top: 20%;
     z-index: 9999;
+    gap: 10px;
 }
 
 .left-side-gifs {
-    left: -6%;
+    left: -3%;
 
 }
 
 .right-side-gifs {
-    right: 5%;
+    right: 3%;
 }
 
 .caption {
-    font-size: 5vw;
+    font-size: 4vw;
     text-align: center;
+    margin: 0;
 }
 
 
