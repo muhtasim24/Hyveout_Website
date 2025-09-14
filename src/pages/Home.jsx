@@ -10,6 +10,7 @@ import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"
 import GifLink from "../components/GifLink";
 import arrowPng from "../assets/arrow.png";
+import Footer from "../components/Footer";
 
 
 function Home() {
@@ -17,23 +18,24 @@ function Home() {
         <div className="main-border">
             <StaticBackground/>
             <div className="container">
-                <img className="home-container" src= {homeBorder} alt="box page" loading="lazy"/>
                 <div className="left-side-gifs">
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img className="gifs" src={mediaGif} alt="media gif"/>
+                        <img className="gifs" src={mediaGif} alt="media gif" />
                     </a>
-                    <h1 className="caption">MEDIA</h1>
-                    <GifLink 
-                        title="CONTACT"
-                        image = {contactGif}
-                        alt = "contact"
-                        path = "/contact"
-                    />
+                    <h1 className="caption" style={ {color: "#ec00ce"}}>MEDIA</h1>
                     <GifLink 
                         title="MIND"
                         image = {mindGif}
                         alt = "mind"
                         path = "/mind"
+                        color = "#fd395e"
+                    />
+                    <GifLink 
+                        title="ABOUT"
+                        image = {aboutGif}
+                        alt = "about"
+                        path = "/about"
+                        color = "#0ea1ec"
                     />
                 </div>
 
@@ -52,21 +54,25 @@ function Home() {
                         image = {gamesGif}
                         alt = "games"
                         path = "/games"
-                    />
-                    <GifLink 
-                        title="ABOUT"
-                        image = {aboutGif}
-                        alt = "about"
-                        path = "/about"
+                        color = "#00c600"
                     />
                     <GifLink 
                         title="SHOP"
                         image = {shopGif}
                         alt = "shop"
                         path = "/shop"
+                        color = "#d474c9"
+                    />
+                    <GifLink 
+                        title="CONTACT"
+                        image = {contactGif}
+                        alt = "contact"
+                        path = "/contact"
+                        color = "#9b5af3"
                     />
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

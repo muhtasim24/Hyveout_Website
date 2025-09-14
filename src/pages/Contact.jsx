@@ -4,6 +4,7 @@ import instaImg from "../assets/instagram.png";
 import mediaGif from "../gifs/media.gif";
 import discordImg from "../assets/discord.png";
 import "../css/contact.css"
+import Footer from "../components/Footer";
 
 function Contact() {
     return (
@@ -27,7 +28,9 @@ function Contact() {
                         <img src={discordImg} alt="discord image" loading="lazy"/>
                     </a>
                 </div>
+
             </div>
+            <Footer/>
         </div>
     )
 }

@@ -36,7 +36,7 @@
 @media (min-width: 768px) {
 
 .gifs {
-    width: 6.5vw;
+    width: 8vw;
     z-index: 1000;
 }
 
@@ -45,14 +45,27 @@
 }
 
 .left-side-gifs {
-    left: 3%;
-    top: 32%;
+    left: -23vw;
+    top: -1%;
 }
 
 .right-side-gifs {
-    right: 14%;
-    top: 32%;
+    right: -23vw;
+    top: 1%;
 }
 
+
+}
+
+@media (min-width: 1920px) {
+    .left-side-gifs {
+        left: -27vw;
+        top: -5%;
+    }
+
+    .right-side-gifs {
+        right: -27vw;
+        top: -5%;
+    }
 
 }

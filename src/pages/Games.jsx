@@ -4,6 +4,7 @@ import StaticBackground from "../components/StaticBackground";
 import ghostGameGif from "../gifs/GHOST_GAME.gif";
 import fragmentGameGif from "../gifs/fragmentGame.gif";
 import "../css/games.css"
+import Footer from "../components/Footer";
 
 
 function Games() {
@@ -24,10 +25,9 @@ function Games() {
                     image = {fragmentGameGif}
                     alt = "fragment game gif"
                     path = "https://hyveout-fragments-game.vercel.app/"
-                />
-
-                
+                />  
             </div>
+            <Footer/>
         </div>
     )
 }

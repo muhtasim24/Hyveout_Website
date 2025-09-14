@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 15%;
+    font-size: 3vw;
+}
+
+.copyright {
+    font-size: 4vw;
+    width: 6vw;
+}
+
+.year {
+   color: #fd395e; 
+}
+
+.hyve-text {
+    color: #0ea1ec;
+}
+
+
+@media (min-width: 768px) {
+    .footer {
+        font-size: 1vw;
+    }
+
+    .copyright {
+        font-size: 1.3vw;
+        width: 1.9vw;
+    }
+
+
+
+}
