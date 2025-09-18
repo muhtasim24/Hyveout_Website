@@ -17,19 +17,21 @@
     flex-direction: column; /* stack .gif-containers vertically */
     justify-content: center;
     align-items: center; /* center horizontally */
-    position: absolute;
-    top: 20%;
+ 
     z-index: 9999;
     gap: 10px;
 }
 
 .left-side-gifs {
-    left: 4%;
+    grid-column: 1;
+    grid-row: 2;
 
+    margin-right: 10px;
 }
 
 .right-side-gifs {
-    right: 8%;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .caption {
@@ -51,28 +53,19 @@
     font-size: 1.3vw;
 }
 
+.left-side-gifs, .right-side-gifs {
+    grid-row: 0;
+    grid-column: auto;
+}
 .left-side-gifs {
-    left: -23vw;
-    top: -1%;
+    margin-right: 0vw;
+    align-items: flex-start;
 }
 
 .right-side-gifs {
-    right: -23vw;
-    top: 1%;
+    margin-left: 0vw;
+    align-items: flex-end;
 }
 
-
-}
-
-@media (min-width: 1920px) {
-    .left-side-gifs {
-        left: -27vw;
-        top: -5%;
-    }
-
-    .right-side-gifs {
-        right: -27vw;
-        top: -5%;
-    }
 
 }

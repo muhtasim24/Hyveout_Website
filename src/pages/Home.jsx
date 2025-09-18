@@ -1,11 +1,11 @@
 import StaticBackground from "../components/StaticBackground";
 import homeBorder from "../assets/home-page.png";
-import mediaGif from "../assets/media.png";
-import contactGif from "../assets/contact.png";
-import mindGif from "../assets/brain.png";
-import gamesGif from "../assets/game.png";
-import aboutGif from "../assets/hyveout.png";
-import shopGif from "../assets/shop.png";
+import mediaGif from "../gifs/media.gif";
+import contactGif from "../gifs/contact.gif";
+import mindGif from "../gifs/brain.gif";
+import gamesGif from "../gifs/games.gif";
+import aboutGif from "../gifs/book.gif";
+import shopGif from "../gifs/shop.gif";
 import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"
 import GifLink from "../components/GifLink";
@@ -20,7 +20,7 @@ function Home() {
             <div className="container">
                 <div className="left-side-gifs">
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img className="gifs" src={mediaGif} alt="media gif" />
+                        <img className="gifs" src={mediaGif} alt="media gif" style={{marginBottom: -10}}/>
                     </a>
                     <h1 className="caption" style={ {color: "#ec00ce"}}>MEDIA</h1>
                     <GifLink 
