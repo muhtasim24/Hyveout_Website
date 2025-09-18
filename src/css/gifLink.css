@@ -7,12 +7,17 @@
     transform: scale(1.15);
 }
 
-.left-side-gifs, .right-side-gifs {
+.gif-container {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    justify-content: center;
     align-items: center;
+}
+.left-side-gifs, .right-side-gifs {
+    display: flex;
+    flex-direction: column; /* stack .gif-containers vertically */
+    justify-content: center;
+    align-items: center; /* center horizontally */
+    position: absolute;
     top: 20%;
     z-index: 9999;
     gap: 10px;
@@ -29,8 +34,8 @@
 
 .caption {
     font-size: 4vw;
-    text-align: center;
     margin: 0;
+    text-shadow: -3px 1px 0px rgba(0, 0, 0, 1);
 }
 
 
