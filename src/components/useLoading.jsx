@@ -23,7 +23,7 @@ function useLoading(images = [], delay = 1000) {
             img.onload = () => {
                 loadedCount++;
                 if (loadedCount === images.length) {
-                    setImagesLoaded(false);
+                    setImagesLoaded(true);
                 }
             };
         }); 
