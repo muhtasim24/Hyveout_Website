@@ -1,6 +1,7 @@
 .gifs {
     width: 13vw;
     height: 100%;
+    aspect-ratio: 1/1;
 }
 
 .gifs:hover {
