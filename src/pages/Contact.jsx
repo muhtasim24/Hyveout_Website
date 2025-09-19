@@ -5,8 +5,17 @@ import mediaGif from "../gifs/media.gif";
 import discordImg from "../assets/discord.png";
 import "../css/contact.css"
 import Footer from "../components/Footer";
+import useLoading from "../components/useLoading";
+import LoadingScreen from "../components/LoadingScreen";
+
 
 function Contact() {
+    const isLoading = useLoading(
+    [instaImg, mediaGif, discordImg],
+    1000);
+    
+    if (isLoading) return <LoadingScreen/>
+
     return (
         <div className="main-border">
             <StaticBackground/>

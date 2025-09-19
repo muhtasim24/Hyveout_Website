@@ -5,9 +5,17 @@ import ghostGameGif from "../gifs/GHOST_GAME.gif";
 import fragmentGameGif from "../gifs/fragmentGame.gif";
 import "../css/games.css"
 import Footer from "../components/Footer";
+import useLoading from "../components/useLoading";
+import LoadingScreen from "../components/LoadingScreen";
 
 
 function Games() {
+    const isLoading = useLoading(
+        [ghostGameGif, fragmentGameGif],
+        1000);
+    
+    if (isLoading) return <LoadingScreen/>
+
     return (
         <div className="main-border">
             <StaticBackground/>

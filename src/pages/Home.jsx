@@ -13,31 +13,19 @@ import arrowPng from "../assets/arrow.png";
 import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import LoadingScreen from "../components/LoadingScreen";
+import useLoading from "../components/useLoading";
 
 
 function Home() {
-    const [imageLoaded, setImagesLoaded] = useState(false);
     const imageArray = [
         mediaGif, contactGif, mindGif, gamesGif, aboutGif, videoGif, arrowPng
     ];
+    const isLoading = useLoading([
+        mediaGif, contactGif, mindGif, gamesGif, aboutGif, videoGif, arrowPng
+    ], 1000);
 
-    useEffect( () => {
-        let loadedCount = 0;
-        const totalImages = imageArray.length;
+    if (isLoading) return <LoadingScreen/>
 
-        imageArray.forEach( (src) => {
-            const img = new Image();
-            img.src = src;
-            img.onload = () => {
-                loadedCount += 1;
-                if (loadedCount === totalImages) {
-                    setImagesLoaded(true);
-                }
-            };
-        });
-    }, []);
-
-    if (!imageLoaded) return <LoadingScreen/>
 
 
     return (

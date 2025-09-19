@@ -2,8 +2,17 @@ import BackButton from "../components/BackButton";
 import Footer from "../components/Footer";
 import StaticBackground from "../components/StaticBackground";
 import "../css/about.css"
+import useLoading from "../components/useLoading";
+import LoadingScreen from "../components/LoadingScreen";
+
 
 function About() {
+    const isLoading = useLoading(
+    [],
+    1000);
+    
+    if (isLoading) return <LoadingScreen/>
+
     return (
         <div className="main-border">
             <StaticBackground/>
