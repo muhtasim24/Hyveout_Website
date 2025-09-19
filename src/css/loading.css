@@ -1,0 +1,20 @@
+.loadingScreen{
+  background-color: black;
+  width:90vw;
+  height: 90vh;
+  z-index: -5;
+}
+
+.loading {
+    width: 60vw;
+    position: relative;
+    top: 41%;
+}
+
+
+@media (min-width: 768px) {
+    .loading {
+        width: 40vw;
+        top: 35%;
+    }
+}
