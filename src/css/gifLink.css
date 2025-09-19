@@ -20,6 +20,7 @@
  
     z-index: 9999;
     gap: 10px;
+    margin-bottom: 10vw;
 }
 
 .left-side-gifs {
@@ -56,15 +57,15 @@
 .left-side-gifs, .right-side-gifs {
     grid-row: 0;
     grid-column: auto;
+    margin-bottom: 2vw;
 }
 .left-side-gifs {
     margin-right: 0vw;
-    align-items: flex-start;
+
 }
 
 .right-side-gifs {
     margin-left: 0vw;
-    align-items: flex-end;
 }
 
 

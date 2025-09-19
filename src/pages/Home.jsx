@@ -17,7 +17,7 @@ function Home() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <div className="container">
+            <div className="home-container">
                 <div className="left-side-gifs">
                     <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
                         <img className="gifs" src={mediaGif} alt="media gif" style={{marginBottom: -10}}/>
