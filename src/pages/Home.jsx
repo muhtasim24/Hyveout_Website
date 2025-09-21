@@ -33,12 +33,13 @@ function Home() {
             <StaticBackground/>
             <div className="home-container">
                 <div className="left-side-gifs">
-                    <div className="gif-container">
-                        <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                            <img className="gifs media-gif" src={mediaGif} alt="media gif"/>
-                        </a>
-                        <h1 className="caption" style={ {color: "#ec00ce"}}>MEDIA</h1>
-                    </div>
+                    <GifLink 
+                        title="MEDIA"
+                        image = {mediaGif}
+                        alt = "media"
+                        path = "/media"
+                        color = "#ec00ce"
+                    />
                     <GifLink 
                         title="MIND"
                         image = {mindGif}

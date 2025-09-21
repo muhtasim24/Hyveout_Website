@@ -9,8 +9,17 @@
     height: auto;
 }
 
+
+
 .games-gif:hover{
     transform: scale(1.02);
+}
+
+/* Video-specific adjustments */
+.games-gif.video {
+    aspect-ratio: 17 / 8.9;   /* YouTube videos */
+    max-width: 400vw;       /* optional max size */
+    height: auto;           /* scales automatically */
 }
 
 .games-caption {
