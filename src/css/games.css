@@ -5,7 +5,7 @@
     gap: 50px; /* spacing between cards */
     max-height: 37vh; /* limit container height */
     overflow-y: auto; /* makes it scroll down */
-    padding: 2rem;
+    padding: 1.5rem;
     position: relative;
     top: 2%;
 }
@@ -14,6 +14,6 @@
     .game-container {
         grid-template-columns: 1fr;
         gap: 30px;
-        max-height: 45vh;
+        max-height: 43vh;
     }
 }
