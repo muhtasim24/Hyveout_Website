@@ -2,13 +2,13 @@
 .game{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .games-gif {
     width: 30vw;
     height: auto;
 }
-
 
 
 .games-gif:hover{
@@ -35,7 +35,7 @@
     }
 
     .games-gif.video {
-        width: 75vw;           /* nearly full width */
+        width: 80vw;           /* nearly full width */
         aspect-ratio: 16 / 9;  /* keep video visible fully */
         max-height: 50vh;      /* optional to prevent super tall iframe */
     }
