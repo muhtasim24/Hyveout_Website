@@ -7,13 +7,13 @@
 
 /* Mobile / small screens (default) */
 .gifs {
-    width: clamp(80px, 13vw, 120px); /* min 80px, scales with vw, max 120px */
+    width: clamp(60px, 13vw, 70px); /* min 80px, scales with vw, max 120px */
     height: 100%;
     aspect-ratio: 1/1;
 }
 
 .caption {
-    font-size: clamp(12px, 4vw, 18px); /* min 12px, scales with vw, max 18px */
+    font-size: clamp(10px, 4vw, 15px); /* min 12px, scales with vw, max 18px */
     margin: 0;
     text-shadow: -3px 1px 0px rgba(0, 0, 0, 1);
 }
@@ -34,7 +34,7 @@
  
     z-index: 9999;
     gap: 50px;
-    margin-bottom: 20vw;
+    margin-bottom: 30vw;
 }
 
 .left-side-gifs {

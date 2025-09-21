@@ -4,13 +4,13 @@
     align-items: center;
     flex-direction: row;
     position: absolute;
-    bottom: 14%;
-    font-size: 3vw;
+    bottom: clamp(5%, 14%, 15%); /* min 5% from bottom, scales, max 15% */
+    font-size: clamp(10px, 3vw, 16px);  /* smaller min for phones */
 }
 
 .copyright {
-    font-size: 4vw;
-    width: 6vw;
+    font-size: clamp(16px, 4vw, 18px);  /* smaller min for phones */
+    width: clamp(10px, 6vw, 60px);      /* smaller min width for phones */
 }
 
 .year {
