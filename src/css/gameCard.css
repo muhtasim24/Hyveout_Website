@@ -34,6 +34,12 @@
         width: 60vw;
     }
 
+    .games-gif.video {
+        width: 60vw;           /* nearly full width */
+        aspect-ratio: 16 / 9;  /* keep video visible fully */
+        max-height: 50vh;      /* optional to prevent super tall iframe */
+    }
+
     .games-caption {
         font-size: 0.7rem;
         margin-top: 10px;
