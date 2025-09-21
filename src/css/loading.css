@@ -3,6 +3,8 @@
   width:90vw;
   height: 90vh;
   z-index: -5;
+
+  animation: slideFade 3s ease-in-out forwards;
 }
 
 .loading {
@@ -10,22 +12,12 @@
     position: relative;
     top: 41%;
 
-    animation: slideFade 1.8s ease-in-out forwards;
 }
 
 @keyframes slideFade {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 1; /* fade in */
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0; /* fade out after sliding */
-  }
+  0% { opacity: 0; }
+  50% { opacity: 1; } /* fade in to fully visible at halfway */
+  100% { opacity: 0; } /* fade out back to invisible */
 }
 
 

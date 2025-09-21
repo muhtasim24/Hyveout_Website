@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 
-function useLoading(images = [], delay = 1000) {
+function useLoading(images = [], delay = 1300) {
     const [imagesLoaded, setImagesLoaded] = useState(false);
     const [delayTime, setDelayTime] = useState(false);
 
