@@ -17,7 +17,7 @@
     width: clamp(200px, 40vw, 600px); /* scales with screen size */
     max-height: 80vh;                  /* won’t overflow vertically */
     position: relative;
-    top: -10%;
+    top: -6%;
     left: 2%;
 }
 
