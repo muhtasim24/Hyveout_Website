@@ -24,7 +24,7 @@
 @keyframes slideFade {
   0% { opacity: 1; }
   50% { opacity: 1; } /* fade in to fully visible at halfway */
-  100% { opacity: 1; } /* fade out back to invisible */
+  100% { opacity: 0; } /* fade out back to invisible */
 }
 
 
