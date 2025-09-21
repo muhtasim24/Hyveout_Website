@@ -17,7 +17,7 @@
     width: clamp(200px, 40vw, 600px); /* scales with screen size */
     max-height: 80vh;                  /* won’t overflow vertically */
     position: relative;
-    top: -2%;
+    top: -10%;
     left: 2%;
 }
 
@@ -30,6 +30,8 @@
 
 @media (min-width: 768px) {
     .loading {
-      width: clamp(400px, 40vw, 600px); /* still responsive but bigger */
+      width: clamp(400px, 40vw, 600px); /* still responsive but 
+      bigger */
+      top: -2%;
     }
 }
