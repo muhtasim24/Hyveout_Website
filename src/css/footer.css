@@ -9,8 +9,8 @@
 }
 
 .copyright {
-    font-size: clamp(16px, 4vw, 18px);  /* smaller min for phones */
-    width: clamp(10px, 6vw, 60px);      /* smaller min width for phones */
+    font-size: 4vw
+
 }
 
 .year {

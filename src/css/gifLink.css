@@ -15,7 +15,7 @@
 .caption {
     font-size: clamp(10px, 3.5vw, 15px); /* min 12px, scales with vw, max 18px */
     margin: 0;
-    text-shadow: -3px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: -2px 1px 0px rgba(0, 0, 0, 1);
 }
 .gifs:hover {
     transform: scale(1.15);

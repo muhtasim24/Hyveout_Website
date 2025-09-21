@@ -3,6 +3,7 @@ import GameCard from "../components/GameCard";
 import StaticBackground from "../components/StaticBackground";
 import ghostGameGif from "../gifs/GHOST_GAME.gif";
 import fragmentGameGif from "../gifs/fragmentGame.gif";
+import allureGif from "../gifs/allure.gif";
 import "../css/games.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";
@@ -11,7 +12,7 @@ import LoadingScreen from "../components/LoadingScreen";
 
 function Games() {
     const isLoading = useLoading(
-        [ghostGameGif, fragmentGameGif],
+        [ghostGameGif, fragmentGameGif, allureGif],
         1000);
     
     if (isLoading) return <LoadingScreen/>
@@ -22,6 +23,13 @@ function Games() {
             <BackButton/>
             <div className="game-container">
                 <GameCard 
+                    title="ALLURE POP UP"
+                    image = {allureGif}
+                    alt = "Allure game"
+                    path = "https://allure-hyveout.vercel.app/"
+                />
+
+                <GameCard 
                     title="GHOST BY NINEXTEEN"
                     image = {ghostGameGif}
                     alt = "Ghost game gif"
@@ -29,7 +37,7 @@ function Games() {
                 />
 
                 <GameCard 
-                    title = "EATMYNOODLE FRAGMENT GAME"
+                    title = "EATMYNOODLE FRAGMENT"
                     image = {fragmentGameGif}
                     alt = "fragment game gif"
                     path = "https://hyveout-fragments-game.vercel.app/"
