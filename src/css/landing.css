@@ -20,7 +20,7 @@
 }
 
 .landingText {
-    font-size: 7rem;
+    font-size: 7vw;
 }
 
 .enter {
@@ -33,7 +33,7 @@
     transform: translate(-50%, -50%);
     border: none;
     padding: 10px 4px;
-    font-size: 2rem;
+    font-size: 2vw;
     z-index: 1;
 }
 
@@ -42,7 +42,7 @@
     color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .enter {
         font-size: 0.8rem;
     } 

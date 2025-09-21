@@ -33,10 +33,12 @@ function Home() {
             <StaticBackground/>
             <div className="home-container">
                 <div className="left-side-gifs">
-                    <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
-                        <img className="gifs" src={mediaGif} alt="media gif" style={{marginBottom: -10}}/>
-                    </a>
-                    <h1 className="caption" style={ {color: "#ec00ce"}}>MEDIA</h1>
+                    <div className="gif-container">
+                        <a href="https://www.youtube.com/@HYVEOUT/videos" target="_blank">
+                            <img className="gifs media-gif" src={mediaGif} alt="media gif"/>
+                        </a>
+                        <h1 className="caption" style={ {color: "#ec00ce"}}>MEDIA</h1>
+                    </div>
                     <GifLink 
                         title="MIND"
                         image = {mindGif}
