@@ -7,13 +7,13 @@
 
 /* Mobile / small screens (default) */
 .gifs {
-    width: clamp(60px, 13vw, 70px); /* min 80px, scales with vw, max 120px */
+    width: clamp(40px, 12vw, 70px); /* min 80px, scales with vw, max 120px */
     height: 100%;
     aspect-ratio: 1/1;
 }
 
 .caption {
-    font-size: clamp(10px, 4vw, 15px); /* min 12px, scales with vw, max 18px */
+    font-size: clamp(10px, 3.5vw, 15px); /* min 12px, scales with vw, max 18px */
     margin: 0;
     text-shadow: -3px 1px 0px rgba(0, 0, 0, 1);
 }

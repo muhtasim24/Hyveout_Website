@@ -1,4 +1,4 @@
-import backBtn from "../gifs/backBtn.gif";
+import backBtn from "../gifs/hyveout_gif.gif";
 import "../css/backBtn.css"
 import { Link } from "react-router-dom";
 

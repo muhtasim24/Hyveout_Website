@@ -11,8 +11,8 @@
 } */
 
 .game-gif {
-    width: clamp(200px, 70vw, 300px);  /* min 200px, scales with 70vw, max 400px */
-    height: clamp(80px, 18vh, 200px);  /* min height 80px, scales with viewport height */
+    width: clamp(150px, 65vw, 300px);  /* min 200px, scales with 70vw, max 400px */
+    height: clamp(70px, 16vh, 200px);  /* min height 80px, scales with viewport height */
 }
 
 .game-gif:hover {
