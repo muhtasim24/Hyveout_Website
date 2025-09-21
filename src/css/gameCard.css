@@ -35,7 +35,7 @@
     }
 
     .games-gif.video {
-        width: 60vw;           /* nearly full width */
+        width: 75vw;           /* nearly full width */
         aspect-ratio: 16 / 9;  /* keep video visible fully */
         max-height: 50vh;      /* optional to prevent super tall iframe */
     }
