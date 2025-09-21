@@ -4,7 +4,7 @@ import mediaGif from "../gifs/media.gif";
 import contactGif from "../gifs/contact.gif";
 import mindGif from "../gifs/brain.gif";
 import gamesGif from "../gifs/games.gif";
-import aboutGif from "../gifs/book.gif";
+import aboutGif from "../gifs/about.gif";
 import shopGif from "../gifs/shop.gif";
 import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"

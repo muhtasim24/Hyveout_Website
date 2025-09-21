@@ -13,7 +13,7 @@
 .mindText {
     text-align: center;
     font-family: 'PressStart2P', sans-serif; /* Optional: Match the desired font */
-    font-size: 4rem; /* Adjust size as needed */
+    font-size: 4vw; /* Adjust size as needed */
     margin: 30px 0; /* Add spacing between lines */
     color: #000; /* Adjust text color */
 }
@@ -36,6 +36,7 @@
         height: auto;
         position: relative;
         left: -5%;
+        margin-left: 10px;
     }
 
     .mindText{
