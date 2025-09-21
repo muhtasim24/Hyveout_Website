@@ -3,6 +3,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr; /* two equal columns */
   gap: -5vw;
+
+  margin-left: 10px;
 }
 
 /* .game-gif {
@@ -62,7 +64,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-  
+        margin-left: 0px;
         gap: 2rem;
 }
 

@@ -16,18 +16,15 @@
 @keyframes slideFade {
   0% {
     opacity: 0;
-    transform: translateX(0); /* start centered */
   }
   10% {
     opacity: 1; /* fade in */
   }
   80% {
     opacity: 1;
-    transform: translateX(100vw); /* slide off to the right */
   }
   100% {
     opacity: 0; /* fade out after sliding */
-    transform: translateX(100vw);
   }
 }
 
