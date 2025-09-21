@@ -6,11 +6,12 @@
     position: absolute;
     bottom: clamp(5%, 14%, 15%); /* min 5% from bottom, scales, max 15% */
     font-size: clamp(10px, 3vw, 16px);  /* smaller min for phones */
+    word-spacing: 30px;
 }
 
 .copyright {
-    font-size: 4vw
-
+    font-size: clamp(15px, 4vw, 20px);
+    width: clamp(30px, 6vw, 30px);
 }
 
 .year {
@@ -24,13 +25,13 @@
 
 @media (min-width: 768px) {
     .footer {
-        font-size: 1vw;
+        font-size: clamp(15px, 1vw, 20px);
         bottom: 15%;
     }
 
     .copyright {
-        font-size: 1.3vw;
-        width: 1.9vw;
+        font-size: clamp(20px, 1.3vw, 20px);
+        width: clamp(30px, 1.9vw, 30px);
     }
 
 
