@@ -70,7 +70,7 @@
 
     .game-gif {
         width: clamp(300px, 25vw, 500px);  /* bigger than mobile but capped */
-        height: clamp(120px, 30vh, 400px);
+        height: auto;
     }
 
     .middle-video {
