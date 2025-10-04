@@ -22,6 +22,14 @@ function Media() {
             <StaticBackground/>
             <BackButton/>
             <div className="game-container">
+                <GameCard
+                    title = "Slayr - Just Like Mine"
+                    video = "https://youtu.be/6StwyoDbMKE?si=eVunUK9a5Tr6Q2Zk"
+                />
+                <GameCard
+                    title = "Slayr - Set In Stone"
+                    video= "https://youtu.be/Z-n_DrZkoi8?si=zSOYqw6w13yGHcmQ"
+                />
                 <GameCard 
                     title="Slayr - SwagStealin"
                     video="https://www.youtube.com/embed/Le18KV-Lj3U?si=6hup9J5_a32381AW"

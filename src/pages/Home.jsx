@@ -59,10 +59,17 @@ function Home() {
                 <div className="middle-video">
                     <h1 className="latest-text">LATEST</h1>
                     <img className="arrow" src={arrowPng} alt="arrow" loading="lazy"/>
-                    <a href="https://hyveout-ghosts.vercel.app/" target="_blank">
-                        <img className="game-gif" src={videoGif} alt="ghost_game"/>
-                    </a>
-                    <h1 className="mid-text">GHOST BY NINEXTEEN</h1>
+                    <div className="video-wrapper">
+                        <iframe
+                            className="game-gif"
+                            src="https://www.youtube.com/embed/6StwyoDbMKE?si=z9yVDPg-s4CuvUgb"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                    <h1 className="mid-text">SLAYR - JUST LIKE MINE</h1>
                 </div>
 
                 <div className="right-side-gifs">
