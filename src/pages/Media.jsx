@@ -24,11 +24,11 @@ function Media() {
             <div className="game-container">
                 <GameCard
                     title = "Slayr - Just Like Mine"
-                    video = "https://youtu.be/6StwyoDbMKE?si=eVunUK9a5Tr6Q2Zk"
+                    video = "https://www.youtube.com/embed/6StwyoDbMKE?si=Xlf_XyTXqa__YNcb"
                 />
                 <GameCard
                     title = "Slayr - Set In Stone"
-                    video= "https://youtu.be/Z-n_DrZkoi8?si=zSOYqw6w13yGHcmQ"
+                    video= "https://www.youtube.com/embed/Z-n_DrZkoi8?si=RBANZjjcKdnJFTY-"
                 />
                 <GameCard 
                     title="Slayr - SwagStealin"
