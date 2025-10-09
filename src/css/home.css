@@ -20,6 +20,9 @@
 .video-wrapper {
     width: clamp(150px, 65vw, 300px);  /* min 200px, scales with 70vw, max 400px */
 }
+.video-wrapper:hover {
+    transform: scale(1.05);
+}
 
 .game-gif:hover {
     transform: scale(1.05);

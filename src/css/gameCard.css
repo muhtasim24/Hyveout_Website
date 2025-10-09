@@ -11,9 +11,13 @@
 }
 
 .video-card {
-    width: 29vw;
+    width: 28vw;
+    height: auto;
 }
 
+.video-card:hover {
+    transform: scale(1.02);
+}
 
 .games-gif:hover{
     transform: scale(1.02);

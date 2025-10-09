@@ -3,9 +3,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
     gap: 50px; /* spacing between cards */
-    max-height: 37vh; /* limit container height */
+    max-height: 38vh; /* limit container height */
     overflow-y: auto; /* makes it scroll down */
-    padding: 1.5rem;
+    padding: 2rem;
     position: relative;
     top: 2%;
 }
