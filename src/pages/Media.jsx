@@ -23,41 +23,40 @@ function Media() {
             <BackButton/>
             <div className="game-container">
                 <GameCard
+                    id = "6StwyoDbMKE"
                     title = "Slayr - Just Like Mine"
-                    video = "https://www.youtube.com/embed/6StwyoDbMKE?si=Xlf_XyTXqa__YNcb"
                 />
                 <GameCard
+                    id = "Z-n_DrZkoi8"
                     title = "Slayr - Set In Stone"
-                    video= "https://www.youtube.com/embed/Z-n_DrZkoi8?si=RBANZjjcKdnJFTY-"
                 />
                 <GameCard 
+                    id = "Le18KV-Lj3U"
                     title="Slayr - SwagStealin"
-                    video="https://www.youtube.com/embed/Le18KV-Lj3U?si=6hup9J5_a32381AW"
                 />
-
                 <GameCard 
+                    id = "IWYYNB6q3-w"
                     title="Remi Zerxes - LIL SUNSET"
-                    video="https://www.youtube.com/embed/IWYYNB6q3-w?si=-kfv6zqBTdBAmQ6_"
                 />
 
                 <GameCard 
+                    id = "FyZEULIMtVk"
                     title = "Ninexteen - ghost"
-                    video = "https://www.youtube.com/embed/FyZEULIMtVk?si=Q6n8XMO4_LuV55Ve"
                 />  
 
                 <GameCard 
-                    title = "JF ANT - Ashin'"
-                    video = "https://www.youtube.com/embed/c7QPJehfG20?si=I4ng_bIC1Fc99W2b"
+                    id = "c7QPJehfG20"
+                    title = "JF ANT - Ashin"
                 />  
 
                 <GameCard 
+                    id = "a2p0ckvGbC4"
                     title = "Wint - Is We?"
-                    video = "https://www.youtube.com/embed/a2p0ckvGbC4?si=OdpNOoGNzA1gTKMe"
                 />  
         
                 <GameCard 
+                    id = "bT8uhIbO6gw"
                     title = "Mattcuz - Hearts &amp; Chrome"
-                    video = "https://www.youtube.com/embed/bT8uhIbO6gw?si=Wvadn8xhXAjtQpMz"
                 />  
             </div>
             <Footer/>

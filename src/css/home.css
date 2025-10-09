@@ -17,6 +17,10 @@
     height: clamp(70px, 16vh, 200px);  /* min height 80px, scales with viewport height */
 }
 
+.video-wrapper {
+    width: clamp(150px, 65vw, 300px);  /* min 200px, scales with 70vw, max 400px */
+}
+
 .game-gif:hover {
     transform: scale(1.05);
 }
@@ -91,6 +95,12 @@
         margin-top: 3px;
         -webkit-text-stroke: 0.5px black;
     
+    }
+
+    .video-wrapper {
+        width: clamp(300px, 25vw, 500px);  /* bigger than mobile but capped */
+        
+        
     }
 
     .arrow {

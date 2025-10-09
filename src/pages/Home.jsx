@@ -14,6 +14,8 @@ import Footer from "../components/Footer";
 import { useState, useEffect } from "react";
 import LoadingScreen from "../components/LoadingScreen";
 import useLoading from "../components/useLoading";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 
 function Home() {
@@ -60,14 +62,10 @@ function Home() {
                     <h1 className="latest-text">LATEST</h1>
                     <img className="arrow" src={arrowPng} alt="arrow" loading="lazy"/>
                     <div className="video-wrapper">
-                        <iframe
-                            className="game-gif"
-                            src="https://www.youtube.com/embed/6StwyoDbMKE?si=z9yVDPg-s4CuvUgb"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowFullScreen
-                        ></iframe>
+                        <LiteYouTubeEmbed
+                            id = "6StwyoDbMKE"
+                            title = "Slayr - Just Like Mine"
+                        />
                     </div>
                     <h1 className="mid-text">SLAYR - JUST LIKE MINE</h1>
                 </div>

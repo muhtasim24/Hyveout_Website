@@ -10,6 +10,10 @@
     height: auto;
 }
 
+.video-card {
+    width: 29vw;
+}
+
 
 .games-gif:hover{
     transform: scale(1.02);
@@ -34,6 +38,9 @@
         width: 60vw;
     }
 
+    .video-card {
+        width: 80vw;
+    }
     .games-gif.video {
         width: 80vw;           /* nearly full width */
         aspect-ratio: 16 / 9;  /* keep video visible fully */
