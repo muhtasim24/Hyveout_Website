@@ -45,11 +45,6 @@ function Media() {
                 />  
 
                 <GameCard 
-                    id = "c7QPJehfG20"
-                    title = "JF ANT - Ashin"
-                />  
-
-                <GameCard 
                     id = "a2p0ckvGbC4"
                     title = "Wint - Is We?"
                 />  
