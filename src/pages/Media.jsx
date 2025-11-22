@@ -23,6 +23,10 @@ function Media() {
             <BackButton/>
             <div className="game-container">
                 <GameCard
+                    id = "GXq_3CULKDE"
+                    title = "Slayr - Holding"
+                />
+                <GameCard
                     id = "6StwyoDbMKE"
                     title = "Slayr - Just Like Mine"
                 />

@@ -63,11 +63,11 @@ function Home() {
                     <img className="arrow" src={arrowPng} alt="arrow" loading="lazy"/>
                     <div className="video-wrapper">
                         <LiteYouTubeEmbed
-                            id = "6StwyoDbMKE"
-                            title = "Slayr - Just Like Mine"
+                            id = "GXq_3CULKDE"
+                            title = "Slayr - Holding"
                         />
                     </div>
-                    <h1 className="mid-text">SLAYR - JUST LIKE MINE</h1>
+                    <h1 className="mid-text">SLAYR - HOLDING</h1>
                 </div>
 
                 <div className="right-side-gifs">
