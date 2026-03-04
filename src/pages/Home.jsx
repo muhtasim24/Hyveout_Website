@@ -67,7 +67,7 @@ function Home() {
                             title = "slayr - Sloppy Joe"
                         />
                     </div>
-                    <h1 className="mid-text">SLAYR - HOLDING</h1>
+                    <h1 className="mid-text">SLAYR - SLOPPY JOE</h1>
                 </div>
 
                 <div className="right-side-gifs">
