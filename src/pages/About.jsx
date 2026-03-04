@@ -18,8 +18,10 @@ function About() {
             <StaticBackground/>
             <BackButton/>
             <div className="about-text">
-                <h1>HYVEOUT IS A CREATIVE AGENCY/COLLECTIVE INTERESTED IN THE INTEGRATION OF ALL FORMS OF MEDIA</h1>
-                <h1>WHAT WE ARE IS IN OUR WORK</h1>
+                <h1>HYVEOUT IS A CREATIVE IDENTITY BASED UPON THE IDEA OF CONSTRUCTIVISM </h1>
+                
+                <h1>IT IS A COLLECTIVE IDEA TO KEEP MOVING FOWARD</h1>
+                <h1>#KMF</h1>
             </div>
             <Footer/>
         </div>

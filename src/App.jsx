@@ -9,6 +9,8 @@ import Contact from './pages/Contact'
 import Mind from './pages/Mind'
 import Shop from './pages/Shop'
 import Media from './pages/Media'
+import MediaSelect from './pages/MediaSelect'
+import Graphics from './pages/Graphics'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Route exact path="/" element={<Landing/>} />
       <Route path='/home' element={<Home/>} />
       <Route path='/media' element={<Media/>} />
+      <Route path='/mediaSelect' element={<MediaSelect/>} />
+      <Route path="/graphics" element={<Graphics/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/games' element={<Games/>} />
       <Route path='/contact' element={<Contact/>} />

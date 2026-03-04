@@ -1,8 +1,9 @@
 import BackButton from "../components/BackButton";
 import StaticBackground from "../components/StaticBackground";
 import instaImg from "../assets/instagram.png";
-import mediaGif from "../gifs/media.gif";
 import discordImg from "../assets/discord.png";
+import tiktokImg from "../assets/tiktoklogo.png";
+import xImg from "../assets/x-logo.png";
 import "../css/contact.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";
@@ -30,9 +31,20 @@ function Contact() {
                     <a href="https://www.instagram.com/hyveout/" target="_blank">
                         <img src= {instaImg} alt="instagram image" loading="lazy"/>
                     </a>
+
                     <a href="https://discord.gg/YxQgw4aCaK" target="_blank">
                         <img src={discordImg} alt="discord image" loading="lazy"/>
                     </a>
+
+                    <a href="https://x.com/hyvewrld" target="_blank">
+                        <img src={xImg} alt="X image" loading="lazy"/>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@hyveout" target="_blank">
+                        <img src={tiktokImg} alt="tik tok logo" loading = "lazy" />
+                    </a>
+                    
+
                 </div>
 
             </div>

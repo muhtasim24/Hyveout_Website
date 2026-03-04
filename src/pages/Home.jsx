@@ -39,7 +39,7 @@ function Home() {
                         title="MEDIA"
                         image = {mediaGif}
                         alt = "media"
-                        path = "/media"
+                        path = "/mediaSelect"
                         color = "#ec00ce"
                     />
                     <GifLink 
@@ -63,8 +63,8 @@ function Home() {
                     <img className="arrow" src={arrowPng} alt="arrow" loading="lazy"/>
                     <div className="video-wrapper">
                         <LiteYouTubeEmbed
-                            id = "GXq_3CULKDE"
-                            title = "Slayr - Holding"
+                            id = "OseKKumHfW4"
+                            title = "slayr - Sloppy Joe"
                         />
                     </div>
                     <h1 className="mid-text">SLAYR - HOLDING</h1>

@@ -23,40 +23,48 @@ function Media() {
             <BackButton/>
             <div className="game-container">
                 <GameCard
+                    id = "OseKKumHfW4"
+                    title = "slayr - Sloppy Joe"
+                />
+                <GameCard
+                    id = "aV6qdmObWxA"
+                    title = "Maxxant - Run.pony"
+                />
+                <GameCard
                     id = "GXq_3CULKDE"
-                    title = "Slayr - Holding"
+                    title = "slayr - Holding"
+                />
+                <GameCard
+                    id = "DFmHkonVCAo"
+                    title = "Vax - Bobby Schmurda"
+                />
+                <GameCard
+                    id = "-oV24UTQ464"
+                    title = "EZCODYLEE - PUNK!"
+                />
+                <GameCard
+                    id = "D7a3DfNLf7U"
+                    title = "slayr - Never Go Down"
+                />
+                <GameCard
+                    id = "JQ_k4kDYHNE"
+                    title = "EZCODYLEE - AOTY!"
+                />
+                <GameCard
+                    id = "KzqISznncDM"
+                    title = "Vax - Buddy Buddy"
                 />
                 <GameCard
                     id = "6StwyoDbMKE"
-                    title = "Slayr - Just Like Mine"
+                    title = "slayr - Just Like Mine"
                 />
                 <GameCard
-                    id = "Z-n_DrZkoi8"
-                    title = "Slayr - Set In Stone"
-                />
-                <GameCard 
-                    id = "Le18KV-Lj3U"
-                    title="Slayr - SwagStealin"
-                />
-                <GameCard 
-                    id = "IWYYNB6q3-w"
-                    title="Remi Zerxes - LIL SUNSET"
-                />
-
-                <GameCard 
                     id = "FyZEULIMtVk"
-                    title = "Ninexteen - ghost"
-                />  
+                    title = "ninexteen - ghost"
+                />
 
-                <GameCard 
-                    id = "a2p0ckvGbC4"
-                    title = "Wint - Is We?"
-                />  
-        
-                <GameCard 
-                    id = "bT8uhIbO6gw"
-                    title = "Mattcuz - Hearts &amp; Chrome"
-                />  
+
+
             </div>
             <Footer/>
         </div>
