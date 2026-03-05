@@ -14,7 +14,7 @@ function Shop() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/home"/>
             <div className="shop-container">
                 <img className="shopImg" src={shopGif} alt="brain gif" loading="lazy"/>
                 <h1 className="shopText">COMING SOON</h1>

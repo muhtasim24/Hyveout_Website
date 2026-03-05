@@ -21,7 +21,7 @@ function Games() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/home" />
             <div className="game-container">
                 <GameCard 
                     title="PFY + FRIENDS"

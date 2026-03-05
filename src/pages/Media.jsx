@@ -20,7 +20,7 @@ function Media() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/mediaSelect"/>
             <div className="game-container">
                 <GameCard
                     id = "OseKKumHfW4"

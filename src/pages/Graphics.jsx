@@ -14,7 +14,7 @@ function Graphics() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/mediaSelect"/>
             <div className="game-container">
                 <GameCard 
                     title = "GASH FM PRESENTS: THIRTEEN DEGREES"

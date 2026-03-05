@@ -16,7 +16,7 @@ function About() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/home"/>
             <div className="about-text">
                 <h1>HYVEOUT IS A CREATIVE IDENTITY BASED UPON THE IDEA OF CONSTRUCTIVISM </h1>
                 

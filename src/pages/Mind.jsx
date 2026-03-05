@@ -17,7 +17,7 @@ function Mind() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/home"/>
             <div className="mind-container">
                 <h1 className="mind-artist">
                     <a href="https://www.instagram.com/countdragons/" target="_blank" className="mind-link">SLAYR</a>

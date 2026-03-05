@@ -9,7 +9,7 @@ function MediaSelect() {
     return (
         <div className="main-border">
             <StaticBackground/>
-            <BackButton/>
+            <BackButton path="/home"/>
             <div className="select-choice">
                 <Link to={"/media"} className="select-link">
                     <h1 className="select-text">MUSIC VIDEOS</h1>
