@@ -7,9 +7,16 @@ import jiaqyGraphic from "../graphics/jiaqy.png";
 import capSwagGraphic from "../graphics/capSwag.png";
 import dc2trillGraphic from "../graphics/dc2trill.png";
 import gashGraphic from "../graphics/gash.png";
+import useLoading from "../components/useLoading";
+import LoadingScreen from "../components/LoadingScreen";
 
 
 function Graphics() {
+    const isLoading = useLoading(
+        [gashGraphic, dc2trillGraphic, capSwagGraphic, jiaqyGraphic],
+        1000);
+    
+    if (isLoading) return <LoadingScreen/>
 
     return (
         <div className="main-border">
