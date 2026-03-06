@@ -24,13 +24,13 @@ function Graphics() {
             <BackButton path="/mediaSelect"/>
             <div className="game-container">
                 <GameCard 
-                    title = "GASH FM PRESENTS: THIRTEEN DEGREES"
+                    title = "GASH FM:THIRTEEN DEGREES"
                     image = {gashGraphic}
                     alt = "gash fm graphic"
                 />
 
                <GameCard 
-                    title = "DC2TRILL POWERED BY GASH FM"
+                    title = "GASH FM:DC2TRILL"
                     image = {dc2trillGraphic}
                     alt = "dcs2trill graphic"
                 />

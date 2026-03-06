@@ -8,7 +8,7 @@
     max-height: 38vh; /* limit container height */
     width: 70vw;
     overflow-y: auto; /* makes it scroll down */
-
+    overflow-x: hidden;
 }
 
 .mind-link {
