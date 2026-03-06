@@ -6,7 +6,9 @@
     grid-template-columns: repeat(1, 1fr); /* 2 cards per row */
     gap: 10px; /* spacing between cards */
     max-height: 38vh; /* limit container height */
+    width: 70vw;
     overflow-y: auto; /* makes it scroll down */
+
 }
 
 .mind-link {
