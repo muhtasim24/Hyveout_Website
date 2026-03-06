@@ -19,8 +19,9 @@
         transform: translate(-45%, -55%);
     }
     .about-text h1{
-        font-size: 1rem;
+        font-size: 0.99rem;
         margin-right: 25px;
+        width: 75vw;
     }
 
 
