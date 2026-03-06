@@ -36,13 +36,13 @@ function Graphics() {
                 />
 
                 <GameCard 
-                    title = "SWEXGAWD VOL.1 COVER ART"
+                    title = "SWEXGAWD VOL.1"
                     image = {capSwagGraphic}
                     alt = "capSwag graphic"
                 />
                 
                 <GameCard 
-                    title = "JAQY 38TH BIRTHDAY PARTY FLYER"
+                    title = "JAQY 38TH BIRTHDAY PARTY"
                     image = {jiaqyGraphic}
                     alt = "jaqy graphic"
                 />
