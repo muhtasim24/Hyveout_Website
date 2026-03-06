@@ -41,6 +41,7 @@ function Home() {
                         alt = "media"
                         path = "/mediaSelect"
                         color = "#ec00ce"
+                        newTab = {false}
                     />
                     <GifLink 
                         title="MIND"
@@ -48,6 +49,7 @@ function Home() {
                         alt = "mind"
                         path = "/mind"
                         color = "#fd395e"
+                        newTab = {false}
                     />
                     <GifLink 
                         title="ABOUT"
@@ -55,6 +57,7 @@ function Home() {
                         alt = "about"
                         path = "/about"
                         color = "#0ea1ec"
+                        newTab = {false}
                     />
                 </div>
 
@@ -77,13 +80,15 @@ function Home() {
                         alt = "games"
                         path = "/games"
                         color = "#00c600"
+                        newTab = {false}
                     />
                     <GifLink 
                         title="SHOP"
                         image = {shopGif}
                         alt = "shop"
-                        path = "/shop"
+                        path = "https://delulubutswag.myshopify.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnPriRi02NwJ3owaJXE3neiBTGR3ITJjL1WkV4fiEbg2YRq0xzqMWcnh0c9FU_aem_ixLn8IyvxXsZj2QOZI5fEg"
                         color = "#d474c9"
+                        newTab = {true}
                     />
                     <GifLink 
                         title="CONTACT"
@@ -91,6 +96,7 @@ function Home() {
                         alt = "contact"
                         path = "/contact"
                         color = "#9b5af3"
+                        newTab = {false}
                     />
                 </div>
             </div>
