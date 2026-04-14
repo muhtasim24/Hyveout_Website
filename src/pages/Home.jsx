@@ -86,9 +86,9 @@ function Home() {
                         title="SHOP"
                         image = {shopGif}
                         alt = "shop"
-                        path = "https://delulubutswag.myshopify.com/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnPriRi02NwJ3owaJXE3neiBTGR3ITJjL1WkV4fiEbg2YRq0xzqMWcnh0c9FU_aem_ixLn8IyvxXsZj2QOZI5fEg"
+                        path = "/shop"
                         color = "#d474c9"
-                        newTab = {true}
+                        newTab = {false}
                     />
                     <GifLink 
                         title="CONTACT"
