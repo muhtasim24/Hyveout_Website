@@ -32,7 +32,7 @@ function Graphics() {
                 />
                 
                 <GameCard 
-                    title = "Slayr:BloodLuxe"
+                    title = "slayr:BloodLuxe"
                     image = {bloodLuxeGraphic}
                     alt = "slayr blood luxe"
                 />
