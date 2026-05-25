@@ -6,7 +6,6 @@ import mindGif from "../gifs/brain.gif";
 import gamesGif from "../gifs/games.gif";
 import aboutGif from "../gifs/about.gif";
 import shopGif from "../gifs/shop.gif";
-import videoGif from "../gifs/GHOST_GAME.gif"
 import "../css/home.css"
 import GifLink from "../components/GifLink";
 import arrowPng from "../assets/arrow.png";
@@ -20,10 +19,10 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 function Home() {
     const imageArray = [
-        mediaGif, contactGif, mindGif, gamesGif, aboutGif, videoGif, arrowPng
+        mediaGif, contactGif, mindGif, gamesGif, aboutGif, arrowPng
     ];
     const isLoading = useLoading([
-        mediaGif, contactGif, mindGif, gamesGif, aboutGif, videoGif, arrowPng
+        mediaGif, contactGif, mindGif, gamesGif, aboutGif, arrowPng
     ], 1000);
 
     if (isLoading) return <LoadingScreen/>

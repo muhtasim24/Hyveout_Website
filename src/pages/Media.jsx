@@ -1,9 +1,6 @@
 import BackButton from "../components/BackButton";
 import GameCard from "../components/GameCard";
 import StaticBackground from "../components/StaticBackground";
-import ghostGameGif from "../gifs/GHOST_GAME.gif";
-import fragmentGameGif from "../gifs/fragmentGame.gif";
-import allureGif from "../gifs/allure.gif";
 import "../css/games.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";
@@ -12,7 +9,7 @@ import LoadingScreen from "../components/LoadingScreen";
 
 function Media() {
     const isLoading = useLoading(
-        [ghostGameGif, fragmentGameGif, allureGif],
+        [],
         1000);
     
     if (isLoading) return <LoadingScreen/>

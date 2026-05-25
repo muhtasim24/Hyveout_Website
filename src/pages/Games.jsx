@@ -1,10 +1,11 @@
 import BackButton from "../components/BackButton";
 import GameCard from "../components/GameCard";
 import StaticBackground from "../components/StaticBackground";
-import ghostGameGif from "../gifs/GHOST_GAME.gif";
-import fragmentGameGif from "../gifs/fragmentGame.gif";
-import allureGif from "../gifs/allure.gif";
-import pfyGame from "../gifs/pfy_game.gif";
+import ghostGameGif from "../games/GHOST_GAME.gif";
+import fragmentGameGif from "../games/fragmentGame.gif";
+import allureGif from "../games/allure.gif";
+import pfyGame from "../games/pfy_game.gif";
+import bluedawnGame from "../games/bluedawngif.gif";
 import "../css/games.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";
@@ -13,7 +14,7 @@ import LoadingScreen from "../components/LoadingScreen";
 
 function Games() {
     const isLoading = useLoading(
-        [ghostGameGif, fragmentGameGif, allureGif, pfyGame],
+        [ghostGameGif, fragmentGameGif, allureGif, pfyGame, bluedawnGame],
         1000);
     
     if (isLoading) return <LoadingScreen/>
@@ -23,6 +24,13 @@ function Games() {
             <StaticBackground/>
             <BackButton path="/home" />
             <div className="game-container">
+                <GameCard 
+                    title="VAX BLUE DAWN"
+                    image = {bluedawnGame}
+                    alt = "vax blue dawn"
+                    path = "https://bluedawn.online/"
+                />
+
                 <GameCard 
                     title="PFY + FRIENDS"
                     image = {pfyGame}

@@ -6,6 +6,8 @@ import GameCard from "../components/GameCard";
 import jiaqyGraphic from "../graphics/jiaqy.png";
 import capSwagGraphic from "../graphics/capSwag.png";
 import dc2trillGraphic from "../graphics/dc2trill.png";
+import halfBloodGraphic from "../graphics/halfbloodlogo.png";
+import bloodLuxeGraphic from "../graphics/bloodluxelogo.png";
 import gashGraphic from "../graphics/gash.png";
 import useLoading from "../components/useLoading";
 import LoadingScreen from "../components/LoadingScreen";
@@ -13,7 +15,7 @@ import LoadingScreen from "../components/LoadingScreen";
 
 function Graphics() {
     const isLoading = useLoading(
-        [gashGraphic, dc2trillGraphic, capSwagGraphic, jiaqyGraphic],
+        [gashGraphic, dc2trillGraphic, capSwagGraphic, jiaqyGraphic, halfBloodGraphic, bloodLuxeGraphic],
         1000);
     
     if (isLoading) return <LoadingScreen/>
@@ -23,6 +25,18 @@ function Graphics() {
             <StaticBackground/>
             <BackButton path="/mediaSelect"/>
             <div className="game-container">
+                <GameCard 
+                    title = "slayr:HalfBlood"
+                    image = {halfBloodGraphic}
+                    alt = "slayr half blood"
+                />
+                
+                <GameCard 
+                    title = "Slayr:BloodLuxe"
+                    image = {bloodLuxeGraphic}
+                    alt = "slayr blood luxe"
+                />
+                
                 <GameCard 
                     title = "GASH FM:THIRTEEN DEGREES"
                     image = {gashGraphic}
