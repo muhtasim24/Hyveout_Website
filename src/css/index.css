@@ -6,6 +6,7 @@
 * {
   -webkit-user-drag: none; /* For Safari and Chrome */
   cursor: url('../assets/cursor.png'), auto;
+  -webkit-tap-highlight-color: transparent; /* removes the grey flash on tap for links/buttons */
 }
 
 body {

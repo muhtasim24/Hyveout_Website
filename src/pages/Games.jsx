@@ -17,7 +17,7 @@ import LoadingScreen from "../components/LoadingScreen";
 function Games() {
     const isLoading = useLoading(
         [ghostGameGif, fragmentGameGif, allureGif, pfyGame, bluedawnGame, ksuuviGame, konbiniGame],
-        1000);
+        6000);
     
     if (isLoading) return <LoadingScreen/>
 

@@ -28,19 +28,19 @@ function Graphics() {
             <div className="game-container">
 
                 <GameCard
-                        title = "AQUA SOCKS"
+                        title = "AQUASOCKS:BABYHUNCHO"
                         image = {aquaSocksGraphic}
                         alt = "aqua socks graphic"
                 />
-                
+
                 <GameCard 
-                    title = "SLAYR:HalfBlood"
+                    title = "SLAYR:HALFBLOOD"
                     image = {halfBloodGraphic}
                     alt = "slayr half blood"
                 />
                 
                 <GameCard 
-                    title = "SLAYR:BloodLuxe"
+                    title = "SLAYR:BLOODLUXE"
                     image = {bloodLuxeGraphic}
                     alt = "SLAYR blood luxe"
                 />
