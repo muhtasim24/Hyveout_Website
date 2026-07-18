@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import landingImg from "../assets/landing.png"
 import Footer from "../components/Footer";
 import StaticBackground from "../components/StaticBackground";
 import '../css/landing.css';

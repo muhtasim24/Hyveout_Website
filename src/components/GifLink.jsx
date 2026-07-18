@@ -8,11 +8,11 @@ function GifLink(props) {
         <div className="gif-container">
             {newTab ? (
                 <a href={path} target="_blank" rel="noopener noreferrer">
-                    <img className="gifs" src={image} alt={alt}/>
+                    <img className="gifs" src={image} alt={alt} loading="lazy"/>
                 </a>
             ) : (
                 <Link to={path}>
-                    <img className="gifs" src={image} alt={alt}/>
+                    <img className="gifs" src={image} alt={alt} loading="lazy"/>
                 </Link>
             )}
 

@@ -6,11 +6,12 @@ import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 function GameCard(props) {
     const { id, title, image, alt, path } =  props
+    const isVideo = typeof image === "string" && image.endsWith(".mp4")
     return (
         <div className="game">
             {id ? (
                 <div className="video-card">
-                    <LiteYouTubeEmbed 
+                    <LiteYouTubeEmbed
                         id = {id}
                         title = {title}
                         poster ="maxresdefault"
@@ -18,7 +19,11 @@ function GameCard(props) {
                 </div>
             ) : (
                 <a href={path} target="_blank">
-                    <img className="games-gif" src={image} alt={alt} loading="lazy"/>
+                    {isVideo ? (
+                        <video className="games-gif" src={image} autoPlay loop muted playsInline />
+                    ) : (
+                        <img className="games-gif" src={image} alt={alt} loading="lazy"/>
+                    )}
                 </a>
             )}
                 <h1 className="games-caption">{title}</h1>

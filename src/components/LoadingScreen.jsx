@@ -1,4 +1,4 @@
-import hyveArrow from "../assets/hyveoutArrow.png";
+import hyveArrow from "../assets/hyveoutArrow.webp";
 import "../css/loading.css"
 import "../css/index.css"
 import Footer from "./Footer";

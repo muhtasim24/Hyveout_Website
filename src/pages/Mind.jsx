@@ -1,6 +1,5 @@
 import BackButton from "../components/BackButton";
 import StaticBackground from "../components/StaticBackground";
-import brainGif from "../gifs/brain.gif";
 import "../css/mind.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";
@@ -8,10 +7,8 @@ import LoadingScreen from "../components/LoadingScreen";
 
 
 function Mind() {
-    const isLoading = useLoading(
-    [brainGif],
-    1000);
-    
+    const isLoading = useLoading([], 1000);
+
     if (isLoading) return <LoadingScreen/>
 
     return (
@@ -20,45 +17,40 @@ function Mind() {
             <BackButton path="/home"/>
             <div className="mind-container">
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/countdragons/" target="_blank" className="mind-link">SLAYR</a>
+                    <a href="https://youtu.be/OseKKumHfW4?list=RDEMCW94n7XJPaGO7gh9VGK99g" target="_blank" className="mind-link">SLAYR</a>
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/vaxfrr/" className="mind-link" target="_blank">VAX</a>
+                    <a href="https://youtu.be/DFmHkonVCAo?list=RDDFmHkonVCAo" className="mind-link" target="_blank">VAX</a>
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/maxxant/" target="_blank" className="mind-link">MAXXANT</a>
+                    <a href="https://youtu.be/YsNi85aVWeo?list=RDYsNi85aVWeo" target="_blank"
+                    className="mind-link">PRETTIFUN</a>
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/ezcodylee/" target="_blank"
+                    <a href="https://youtu.be/aV6qdmObWxA?list=RDaV6qdmObWxA" target="_blank" className="mind-link">MAXXANT</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://youtu.be/JQ_k4kDYHNE?list=RDJQ_k4kDYHNE" target="_blank"
                     className="mind-link">EZCODYLEE</a>
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/praizewa/" target="_blank"
+                    <a href="https://youtu.be/jAVFm6r4tU8?list=RDjAVFm6r4tU8" target="_blank"
+                    className="mind-link">SKYTE</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://youtu.be/jh6jO0HsJco" target="_blank"
                     className="mind-link">WA</a>
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/captainswaggg/" target="_blank"
-                    className="mind-link">CAPTAIN SWAG</a>
-                </h1>
-
-                <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/baronsolderbrother/" target="_blank"
-                    className="mind-link">NINEXTEEN</a>
-                </h1>
-
-                <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/allure.newyork/" target="_blank"
-                    className="mind-link">ALLURE</a>
-                </h1>
-
-                <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/jjjaqy/" target="_blank"
-                    className="mind-link">JJJAQY</a>
+                    <a href="https://www.uptownbaby.net/" target="_blank"
+                    className="mind-link">KSUUVI</a>
                 </h1>
 
                 <h1 className="mind-artist">
@@ -67,9 +59,36 @@ function Mind() {
                 </h1>
 
                 <h1 className="mind-artist">
-                    <a href="https://www.instagram.com/tturnaboutt/" target="_blank"
+                    <a href="https://youtu.be/SUJKr6lqCfU" target="_blank"
                     className="mind-link">TURNABOUT</a>
                 </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://allure-hyveout.vercel.app/" target="_blank"
+                    className="mind-link">ALLURE</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://youtu.be/sNIJ3bWSaFg" target="_blank"
+                    className="mind-link">OVERTONGIHT</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://genius.com/album_cover_arts/1650799" target="_blank"
+                    className="mind-link">AQUASOCKS</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://genius.com/albums/Captain-swag/Swexgawd-vol-1" target="_blank"
+                    className="mind-link">CAPTAIN SWAG</a>
+                </h1>
+
+                <h1 className="mind-artist">
+                    <a href="https://youtu.be/FyZEULIMtVk" target="_blank"
+                    className="mind-link">NINEXTEEN</a>
+                </h1>
+
+
             </div>
             <Footer/>
         </div>

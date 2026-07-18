@@ -1,9 +1,9 @@
 import BackButton from "../components/BackButton";
 import StaticBackground from "../components/StaticBackground";
-import instaImg from "../assets/instagram.png";
-import discordImg from "../assets/discord.png";
-import tiktokImg from "../assets/tiktoklogo.png";
-import xImg from "../assets/x-logo.png";
+import instaImg from "../assets/instagram.webp";
+import discordImg from "../assets/discord.webp";
+import tiktokImg from "../assets/tiktoklogo.webp";
+import xImg from "../assets/x-logo.webp";
 import "../css/contact.css"
 import Footer from "../components/Footer";
 import useLoading from "../components/useLoading";

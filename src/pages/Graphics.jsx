@@ -3,19 +3,20 @@ import Footer from "../components/Footer";
 import "../css/games.css";
 import StaticBackground from "../components/StaticBackground";
 import GameCard from "../components/GameCard";
-import jiaqyGraphic from "../graphics/jiaqy.png";
-import capSwagGraphic from "../graphics/capSwag.png";
-import dc2trillGraphic from "../graphics/dc2trill.png";
-import halfBloodGraphic from "../graphics/halfbloodlogo.png";
-import bloodLuxeGraphic from "../graphics/bloodluxelogo.png";
-import gashGraphic from "../graphics/gash.png";
+import jiaqyGraphic from "../graphics/jiaqy.webp";
+import capSwagGraphic from "../graphics/capSwag.webp";
+import dc2trillGraphic from "../graphics/dc2trill.webp";
+import halfBloodGraphic from "../graphics/halfbloodlogo.webp";
+import bloodLuxeGraphic from "../graphics/bloodluxelogo.webp";
+import gashGraphic from "../graphics/gash.webp";
+import aquaSocksGraphic from "../graphics/aquasocks.webp";
 import useLoading from "../components/useLoading";
 import LoadingScreen from "../components/LoadingScreen";
 
 
 function Graphics() {
     const isLoading = useLoading(
-        [gashGraphic, dc2trillGraphic, capSwagGraphic, jiaqyGraphic, halfBloodGraphic, bloodLuxeGraphic],
+        [gashGraphic, dc2trillGraphic, capSwagGraphic, jiaqyGraphic, halfBloodGraphic, bloodLuxeGraphic, aquaSocksGraphic],
         1000);
     
     if (isLoading) return <LoadingScreen/>
@@ -25,16 +26,23 @@ function Graphics() {
             <StaticBackground/>
             <BackButton path="/mediaSelect"/>
             <div className="game-container">
+
+                <GameCard
+                        title = "AQUA SOCKS"
+                        image = {aquaSocksGraphic}
+                        alt = "aqua socks graphic"
+                />
+                
                 <GameCard 
-                    title = "slayr:HalfBlood"
+                    title = "SLAYR:HalfBlood"
                     image = {halfBloodGraphic}
                     alt = "slayr half blood"
                 />
                 
                 <GameCard 
-                    title = "slayr:BloodLuxe"
+                    title = "SLAYR:BloodLuxe"
                     image = {bloodLuxeGraphic}
-                    alt = "slayr blood luxe"
+                    alt = "SLAYR blood luxe"
                 />
                 
                 <GameCard 
@@ -55,7 +63,7 @@ function Graphics() {
                     alt = "capSwag graphic"
                 />
                 
-                <GameCard 
+                <GameCard
                     title = "JAQY 38TH BIRTHDAY PARTY"
                     image = {jiaqyGraphic}
                     alt = "jaqy graphic"
